@@ -100,7 +100,7 @@
     <header>
       <div class="eyebrow">도티두잇 · DotiDoit</div>
       <h1>개인정보처리방침<br />Privacy Policy</h1>
-      <p class="muted">시행일: 2026년 9월 17일 · Effective September 17, 2026</p>
+      <p class="muted">시행일: 2026년 9월 18일 · Effective September 18, 2026</p>
       <p>opensky · <a href="mailto:eonseok.yoon@opensky.co.kr">eonseok.yoon@opensky.co.kr</a></p>
       <nav aria-label="Language"><a href="#ko">한국어</a> · <a href="#en">English</a></nav>
     </header>
@@ -157,7 +157,7 @@
         <h2>7. 지도와 지형 고도 보정</h2>
         <p>기록의 ‘지도와 경로’ 표시나 알림 장소 선택 지도를 열면 OpenStreetMap 지도 타일 서버에 표시 지역의 타일 요청과 일반 접속 정보가 전달됩니다. 원본 GPS 경로 파일·건강 수치를 지도 타일 서버에 업로드하지는 않지만 타일 식별자로 열람 지역을 추정할 수 있습니다.</p>
         <p>기록을 ‘경로만’ 또는 ‘숨김’으로 표시하면 해당 기록 화면의 지도 타일 요청을 하지 않습니다. 이 선택은 저장된 좌표를 삭제하거나 측정을 중단하지 않으며, 별도로 알림 장소 지도를 열 때의 요청까지 막는 설정은 아닙니다. 경로 모양만으로도 장소가 추정될 수 있습니다.</p>
-        <p>경로 고도 기록을 켠 상태에서 지도 표시 모드로 저장하거나 사용자가 ‘지도 고도로 보정’을 확인하면 s3.amazonaws.com/elevation-tiles-prod의 Terrarium 지형 타일을 요청할 수 있습니다. 타일 식별자와 접속 정보가 전달되며 원본 GPS 파일·수행 시각·건강 수치는 보내지 않습니다. 경로만·숨김의 자동 저장에서는 캐시된 타일만 사용합니다. 보정 실패 시 기존 값을 유지합니다.</p>
+        <p>GPS와 경로 고도 기록을 켠 수행은 저장 시 지도 기반 고도를 자동 계산합니다. 기존 미보정 기록도 조회 시 자동 보정할 수 있습니다. 지도·경로만·숨김 표시 설정과 관계없이 캐시가 없으면 s3.amazonaws.com/elevation-tiles-prod의 Terrarium 지형 타일을 요청합니다. 타일 식별자와 접속 정보가 전달되며 원본 GPS 파일·수행 시각·건강 수치는 보내지 않습니다. 보정 실패 시 원본을 보존하며 다음 조회 시 다시 시도합니다. 지형 고도는 건물 층수나 교량의 실제 높이와 다를 수 있습니다.</p>
       </section>
       <section id="ko-8">
         <h2>8. 선택형 도티모티 연동과 공유</h2>
@@ -250,7 +250,7 @@
         <h2>7. Maps and terrain elevation</h2>
         <p>Displaying a record in map-and-route mode or opening the reminder-place map requests regional map tiles from OpenStreetMap, with ordinary connection information. Original GPS route files and health readings are not uploaded to the tile server, but tile identifiers can reveal the viewed area.</p>
         <p>Route-only or hidden mode avoids map tile requests for that record view. It does not delete saved coordinates, stop measurement, or prevent requests when you separately open a reminder-place map. A route shape itself may identify a place.</p>
-        <p>Saving with elevation tracking in map mode, or explicitly confirming terrain correction, can request Terrarium tiles from s3.amazonaws.com/elevation-tiles-prod. Tile identifiers and connection information are sent, not original GPS files, activity timestamps or health readings. Automatic saving in route-only/hidden mode uses cached tiles only. Failed corrections preserve existing values.</p>
+        <p>Runs with GPS and route elevation enabled automatically calculate terrain elevation when saved. Existing uncorrected records may also be corrected when viewed. Regardless of map, route-only or hidden display settings, missing cached tiles are requested from s3.amazonaws.com/elevation-tiles-prod. Tile identifiers and connection information are sent, not original GPS files, activity timestamps or health readings. Failed corrections preserve original data and retry on the next visit. Terrain height may differ from building floors or bridge decks.</p>
       </section>
       <section id="en-8">
         <h2>8. Optional DotiMoti integration and sharing</h2>
