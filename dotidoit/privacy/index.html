@@ -100,7 +100,7 @@
     <header>
       <div class="eyebrow">도티두잇 · DotiDoit</div>
       <h1>개인정보처리방침<br />Privacy Policy</h1>
-      <p class="muted">시행일: 2026년 9월 21일 · Effective September 21, 2026</p>
+      <p class="muted">시행일: 2026년 10월 2일 · Effective October 2, 2026</p>
       <p>opensky · <a href="mailto:eonseok.yoon@opensky.co.kr">eonseok.yoon@opensky.co.kr</a></p>
       <nav aria-label="Language"><a href="#ko">한국어</a> · <a href="#en">English</a></nav>
     </header>
@@ -118,15 +118,15 @@
           <li>수행기록: 시작·종료 시각, 경과 시간, 완료 상태, 반복 카운터, 메모, 사진과 편집용 복사본.</li>
           <li>휴대폰 측정: 선택한 기능에 따라 위치 좌표·이동 시각·경로·거리·속도·페이스·고도, 걸음 수·층수 및 반복 횟수.</li>
           <li>선택형 건강 데이터: Health Connect에서 가져온 심박수·걸음 수·거리·활동 칼로리·총 칼로리, 제공 앱·시간 구간·조회 상태 등 출처와 품질 정보. 휴대폰 측정값과 출처를 구분해 보관합니다.</li>
-          <li>도우미와 설정: 알림 장소 좌표·반경, 알림 시각, NFC 태그 식별값과 미션 연결, 소리·알람·방해금지 설정.</li>
+          <li>도우미와 설정: 알림 시각, NFC 태그 식별값과 미션 연결, 소리·알람·방해금지 설정.</li>
           <li>로컬 식별값: 앱 설치 단위의 식별값과 미션·수행기록 식별값. 광고 식별자로 사용하지 않습니다.</li>
         </ul>
       </section>
       <section id="ko-3">
         <h2>3. 위치와 미션 시작 도우미</h2>
         <p>이동 측정을 켠 수행에서는 경로와 거리를 기록하기 위해 위치를 사용합니다. 수행을 계속하는 동안에는 다른 앱을 보거나 화면을 꺼도 포그라운드 서비스로 측정이 이어질 수 있습니다.</p>
-        <p>별도로 장소 도착 알림을 설정하면 현재 위치로 장소를 선택하거나, 등록한 장소에 도착했는지 운영체제가 감지하도록 위치를 사용합니다. 이 도우미는 미션 수행 전에도, 관련 권한과 기기 상태가 허용하는 경우 백그라운드에서도 동작할 수 있습니다. 장소 도착 알림 자체는 연속 이동 경로를 수행기록으로 저장하는 기능이 아닙니다.</p>
-        <p>장소·시간 도우미와 NFC 시작 기능은 미션 편집에서 끌 수 있습니다. 위치 권한은 Android 설정에서 철회할 수 있으며, 철회하면 해당 위치 기능이 제한됩니다.</p>
+        <p>현재 출시 버전은 장소 도착 알림이나 수행 전 백그라운드 위치 감지를 제공하지 않습니다. 시간 알림과 NFC 태그는 수행 준비 화면만 열며 측정을 자동으로 시작하지 않습니다.</p>
+        <p>시간 도우미와 NFC 시작 기능은 미션 편집에서 끌 수 있습니다. 위치 권한은 Android 설정에서 철회할 수 있으며, 철회하면 이동 경로와 거리 측정이 제한됩니다.</p>
       </section>
       <section id="ko-4">
         <h2>4. Health Connect와 웨어러블 데이터</h2>
@@ -155,8 +155,8 @@
       </section>
       <section id="ko-7">
         <h2>7. 지도와 지형 고도 보정</h2>
-        <p>기록의 지도 배경이나 알림 장소 선택 지도를 열면 OpenStreetMap 지도 타일 서버에 표시 지역의 타일 요청과 일반 접속 정보가 전달됩니다. 원본 GPS 경로 파일·건강 수치를 지도 타일 서버에 업로드하지는 않지만 타일 식별자로 열람 지역을 추정할 수 있습니다.</p>
-        <p>각 수행기록의 지도 메뉴에서 ‘지도 숨기기’를 선택하면 그 기록은 경로 모양만 표시하고 지도 타일을 요청하지 않습니다. ‘지도 보기’를 선택하면 지도 배경을 다시 표시합니다. 이 기록별 선택은 저장된 GPS 원본을 삭제하거나 측정을 중단하지 않으며, 별도로 알림 장소 지도를 열 때의 요청까지 막지 않습니다. 경로 모양만으로도 장소가 추정될 수 있습니다.</p>
+        <p>기록의 지도 배경을 열면 OpenStreetMap 지도 타일 서버에 표시 지역의 타일 요청과 일반 접속 정보가 전달됩니다. 원본 GPS 경로 파일·건강 수치를 지도 타일 서버에 업로드하지는 않지만 타일 식별자로 열람 지역을 추정할 수 있습니다.</p>
+        <p>각 수행기록의 지도 메뉴에서 ‘지도 숨기기’를 선택하면 그 기록은 경로 모양만 표시하고 지도 타일을 요청하지 않습니다. ‘지도 보기’를 선택하면 지도 배경을 다시 표시합니다. 이 기록별 선택은 저장된 GPS 원본을 삭제하거나 측정을 중단하지 않습니다. 경로 모양만으로도 장소가 추정될 수 있습니다.</p>
         <p>GPS와 경로 고도 기록을 켠 수행은 저장 시 지도 기반 고도를 자동 계산합니다. 기존 미보정 기록도 조회 시 자동 보정할 수 있습니다. 기록별 지도 배경 표시와 관계없이 캐시가 없으면 s3.amazonaws.com/elevation-tiles-prod의 Terrarium 지형 타일을 요청합니다. 타일 식별자와 접속 정보가 전달되며 원본 GPS 파일·수행 시각·건강 수치는 보내지 않습니다. 보정 실패 시 원본을 보존하며 다음 조회 시 다시 시도합니다. 지형 고도는 건물 층수나 교량의 실제 높이와 다를 수 있습니다.</p>
       </section>
       <section id="ko-8">
@@ -210,15 +210,15 @@
           <li>Activity records: start/end times, elapsed time, completion state, counters, notes, photos and editing copies.</li>
           <li>Phone measurements, when enabled: coordinates and timestamps, routes, distance, speed, pace, elevation, steps, floors and repetition counts.</li>
           <li>Optional health imports: heart rate, steps, distance, active and total calories, contributing apps, time intervals and import status/quality information from Health Connect. Phone measurements remain separately labeled.</li>
-          <li>Helpers and preferences: reminder place coordinates/radius, reminder times, NFC tag identifiers and mission bindings, sounds, alarms and Do Not Disturb preferences.</li>
+          <li>Helpers and preferences: reminder times, NFC tag identifiers and mission bindings, sounds, alarms and Do Not Disturb preferences.</li>
           <li>Local identifiers: app-installation, mission and record identifiers. These are not used as advertising identifiers.</li>
         </ul>
       </section>
       <section id="en-3">
         <h2>3. Location and mission-start helpers</h2>
         <p>When movement measurement is enabled for a run, location is used to record its route and distance. A foreground service can continue that measurement while another app is visible or the screen is off.</p>
-        <p>Separately, if you configure an arrival reminder, location can be used to select a place and let Android detect arrival at that place. This helper can operate before a run and in the background where permissions and device conditions allow. An arrival reminder does not itself create a continuous activity route record.</p>
-        <p>Place/time reminders and NFC start can be disabled in mission editing. Location permissions can be revoked in Android settings, which limits the corresponding features.</p>
+        <p>The current release does not provide arrival reminders or pre-run background location detection. Time reminders and NFC tags only open the preparation screen and never start measurement automatically.</p>
+        <p>Time reminders and NFC start can be disabled in mission editing. Location permissions can be revoked in Android settings, which limits route and distance measurement.</p>
       </section>
       <section id="en-4">
         <h2>4. Health Connect and wearable data</h2>
@@ -247,8 +247,8 @@
       </section>
       <section id="en-7">
         <h2>7. Maps and terrain elevation</h2>
-        <p>Displaying a record's map background or opening the reminder-place map requests regional map tiles from OpenStreetMap, with ordinary connection information. Original GPS route files and health readings are not uploaded to the tile server, but tile identifiers can reveal the viewed area.</p>
-        <p>The per-record route menu provides ‘Hide map’, which keeps the route shape visible without requesting map tiles for that record, and ‘Show map’, which restores the background. This choice does not delete original GPS data, stop measurement, or prevent requests when you separately open a reminder-place map. A route shape itself may identify a place.</p>
+        <p>Displaying a record's map background requests regional map tiles from OpenStreetMap, with ordinary connection information. Original GPS route files and health readings are not uploaded to the tile server, but tile identifiers can reveal the viewed area.</p>
+        <p>The per-record route menu provides ‘Hide map’, which keeps the route shape visible without requesting map tiles for that record, and ‘Show map’, which restores the background. This choice does not delete original GPS data or stop measurement. A route shape itself may identify a place.</p>
         <p>Runs with GPS and route elevation enabled automatically calculate terrain elevation when saved. Existing uncorrected records may also be corrected when viewed. Regardless of per-record map-background visibility, missing cached tiles are requested from s3.amazonaws.com/elevation-tiles-prod. Tile identifiers and connection information are sent, not original GPS files, activity timestamps or health readings. Failed corrections preserve original data and retry on the next visit. Terrain height may differ from building floors or bridge decks.</p>
       </section>
       <section id="en-8">
