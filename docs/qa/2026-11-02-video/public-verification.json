@@ -1,0 +1,65 @@
+[
+  {
+    "kind": "policy",
+    "page": "ko",
+    "url": "https://kizwond.github.io/dotimoti-legal/dotidoit/privacy/",
+    "status": 200,
+    "sourceMatches": true,
+    "sha256": "1dc2a180da0edd6c5051d7bc2523192dc76338978f12de039c6e5e58db3623cd",
+    "bytes": 36233
+  },
+  {
+    "kind": "policy",
+    "page": "en",
+    "url": "https://kizwond.github.io/dotimoti-legal/dotidoit/privacy/en/",
+    "status": 200,
+    "sourceMatches": true,
+    "sha256": "7dd1e244d5131b940a9f9a2130ae859b3ea0e20b114804616703ec1dcdb12b16",
+    "bytes": 18165
+  },
+  {
+    "kind": "policy",
+    "page": "ja",
+    "url": "https://kizwond.github.io/dotimoti-legal/dotidoit/privacy/ja/",
+    "status": 200,
+    "sourceMatches": true,
+    "sha256": "d92a1f2d7a39a5e32159547b97982926b441788fc455f3499c6c0575e2679cc8",
+    "bytes": 18464
+  },
+  {
+    "kind": "policy",
+    "page": "zh-Hans",
+    "url": "https://kizwond.github.io/dotimoti-legal/dotidoit/privacy/zh-hans/",
+    "status": 200,
+    "sourceMatches": true,
+    "sha256": "7de3c3b76a185f93f47b5cd5ae4ad6b2ffef2b66c4370da455ccd98a21a27270",
+    "bytes": 15182
+  },
+  {
+    "kind": "policy",
+    "page": "zh-Hant",
+    "url": "https://kizwond.github.io/dotimoti-legal/dotidoit/privacy/zh-hant/",
+    "status": 200,
+    "sourceMatches": true,
+    "sha256": "10d9438dead887dc1d5dbed6ee1fdd31ccd44cdd7c094c2baffbb06962604274",
+    "bytes": 15458
+  },
+  {
+    "kind": "policy",
+    "page": "es",
+    "url": "https://kizwond.github.io/dotimoti-legal/dotidoit/privacy/es/",
+    "status": 200,
+    "sourceMatches": true,
+    "sha256": "9b206ef3a0dea6d46a0873b635524ff38f14082287c6e3bc8522d188342c95f8",
+    "bytes": 17573
+  },
+  {
+    "kind": "policy",
+    "page": "vi",
+    "url": "https://kizwond.github.io/dotimoti-legal/dotidoit/privacy/vi/",
+    "status": 200,
+    "sourceMatches": true,
+    "sha256": "9c58e5f3943ecf209e01ae65b6261dffcfd703bf1dceb180c3d4376cf5a3c9a2",
+    "bytes": 19320
+  }
+]
