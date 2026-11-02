@@ -1,0 +1,138 @@
+[
+  {
+    "title": "1. Scope and principles",
+    "paragraphs": [
+      "DotiDoit (package com.doti.doit) is a local-first app for creating missions, measuring activities with tools, and keeping photos, videos and notes.",
+      "DotiDoit has no account registration or sign-in, advertising SDK, or behavioral analytics SDK. Missions, activity records, photos, videos and health data are primarily kept on the device. User-selected sharing, backup and online features such as maps can involve external processing as described below."
+    ],
+    "bullets": []
+  },
+  {
+    "title": "2. Information stored on the device",
+    "paragraphs": [],
+    "bullets": [
+      "Missions and tools: names, descriptions, covers, targets, deadlines, routine steps, durations, repetitions and execution settings.",
+      "Activity records: start/end times, elapsed time, completion state, counters, notes, photos and editing copies.",
+      "Feed attachments: original photos and videos, selected segments, layout, dimming, mute and text, record or sticker edit settings.",
+      "Phone measurements, when enabled: coordinates and timestamps, routes, distance, speed, pace, elevation, steps, floors and repetition counts.",
+      "Optional health imports: heart rate, steps, distance, active and total calories, speed, elevation gained, contributing apps, intervals and import status/quality from Health Connect. Sample sums and counts support period averages. Phone measurements remain separately labeled.",
+      "Helpers and preferences: reminder times, NFC tag identifiers and mission bindings, sounds, alarms and Do Not Disturb preferences.",
+      "Local identifiers: app-installation, mission and record identifiers. These are not used as advertising identifiers."
+    ]
+  },
+  {
+    "title": "3. Location and mission-start helpers",
+    "paragraphs": [
+      "When movement measurement is enabled for a run, location is used to record its route and distance. A foreground service can continue that measurement while another app is visible or the screen is off.",
+      "The current release does not provide arrival reminders or pre-run background location detection. Time reminders and NFC tags open the linked mission screen.",
+      "Time reminders and NFC start can be disabled in mission editing. Location permissions can be revoked in Android settings, which limits route and distance measurement."
+    ],
+    "bullets": []
+  },
+  {
+    "title": "4. Health Connect and wearable data",
+    "paragraphs": [
+      "After you consent to the selected data types and grant access, the app reads heart rate, steps, distance, active and total calories, speed and elevation gained already stored in Health Connect. Automatic recording follows the consent, access and calendar-day scope described in section 14; heart rate and speed averages use actual source samples. It does not connect directly to a wearable or receive account credentials for apps such as Zepp. Data may also originate from phone apps; contributing apps are shown and wearable origin is not guaranteed.",
+      "Health summaries for user-started runs use the run's start and end times. To find heart-rate or calorie records spanning that window, the app can also query accessible records that began before the run. Unrelated earlier records may be returned during that search; the app retains selected activity-related samples, summaries, intervals, provenance and diagnostic information, not a wholesale copy of all past health history.",
+      "Access is read-only: the app does not write to Health Connect or delete its source records. Permission alone does not guarantee synchronization or available data. Source-app delays and interval resolution can cause missing or estimated results; you can import again.",
+      "Health data supports activity records, period statistics, evaluation of your configured success criteria, personal review and user-selected record sharing, not sale, advertising or credit decisions. The app is not for medical diagnosis or treatment. You can revoke individual data permissions in Health Connect settings."
+    ],
+    "bullets": []
+  },
+  {
+    "title": "5. Photos, videos and other permissions",
+    "paragraphs": [],
+    "bullets": [
+      "Videos selected from the album are copied into app-private storage while temporary access is available. Clip selection, layout, muting and record decoration are processed on the device without modifying the original or uploading it to a company server. When you explicitly share, the selected segment and visible records are rendered into an MP4 and handed to the app you choose. ZIP backups contain the complete original video, including segments not selected for sharing, and its edit settings. Imported videos are not automatically duplicated into the gallery.",
+      "Camera and photo selection: user-requested capture, selected album photos, enabled automatic capture and editing. Photos captured directly or automatically by the DotiDoit camera are also copied after record save to the user's Pictures/도티두잇 gallery album. Photos selected from an existing album are not duplicated back into the gallery. Record, editing or preview copies may remain in app-private storage.",
+      "Physical activity: reads phone step-detector/counter sensors during a run. Elevation and floor availability depends on sensors and settings.",
+      "Notifications, exact alarms, vibration and boot completion: restore scheduled alarms/time reminders and show activity status and completion. Direct-distribution APKs can also use full-screen notifications; the Google Play version excludes that permission.",
+      "Foreground services and wake locks: support ongoing runs and audio while the screen is off or the app is in the background.",
+      "NFC: reads a tag identifier you bind to a mission to open its execution screen. The app does not write records to the tag.",
+      "Do Not Disturb access: adjusts interruption settings during an execution you select.",
+      "Package installation requests: for direct-APK updates you choose, opens Android's installation flow with user confirmation. The Google Play version does not use self-updating APKs or the package-installation permission. The app does not request contacts permission."
+    ]
+  },
+  {
+    "title": "6. Bundled official missions and update connections",
+    "paragraphs": [
+      "The public mission catalog, default settings and illustrations are bundled with the app. Opening the catalog or selecting its images does not contact a server. New official missions arrive in app updates. Catalog browsing does not send your missions, activity records, photos, health readings or account tokens to an external server.",
+      "Direct-distribution APKs can check update information and download an APK when requested. Distribution servers receive connection information such as IP address, request time/path and ordinary HTTP information to process requests and operate the service. Local-first does not mean that no internet connections occur."
+    ],
+    "bullets": []
+  },
+  {
+    "title": "7. Maps and terrain elevation",
+    "paragraphs": [
+      "Displaying a record's map background requests regional map tiles from OpenStreetMap, with ordinary connection information. Original GPS route files and health readings are not uploaded to the tile server, but tile identifiers can reveal the viewed area.",
+      "The per-record route menu provides ‘Hide map’, which keeps the route shape visible without requesting map tiles for that record, and ‘Show map’, which restores the background. This choice does not delete original GPS data or stop measurement. A route shape itself may identify a place.",
+      "Runs with GPS and route elevation enabled automatically calculate terrain elevation when saved. Existing uncorrected records may also be corrected when viewed. Regardless of per-record map-background visibility, missing cached tiles are requested from s3.amazonaws.com/elevation-tiles-prod. Tile identifiers and connection information are sent, not original GPS files, activity timestamps or health readings. Failed corrections preserve original data and retry on the next visit. Terrain height may differ from building floors or bridge decks."
+    ],
+    "bullets": []
+  },
+  {
+    "title": "8. Sharing and current-release app integration",
+    "paragraphs": [
+      "The current release does not expose DotiMoti app-to-app record transfer. DotiDoit creates missions, runs and records independently of whether DotiMoti is installed; the public mission catalog and default illustrations are also bundled with the app.",
+      "When you choose sharing or export, information goes to the selected app or storage destination. GPX may contain exact coordinates and timestamps regardless of whether the map background is hidden on the record screen. Check recipients and sharing scope."
+    ],
+    "bullets": []
+  },
+  {
+    "title": "9. Backup, retention and deletion",
+    "paragraphs": [
+      "Missions, tools, activity records, feeds, app-private photos, videos and routes, and imported health-data copies remain in device storage until you delete them or run ‘Delete all data’ in settings. After reset, the app recreates its starter guide and default tools. Android's clear-app-data and uninstall actions also affect app-private storage.",
+      "On supported Android uninstall screens, choosing to keep app data can leave app-private data on the device after uninstall. Without that choice, uninstall removes app-private data. Availability and restoration on reinstall depend on the device, uninstall method and installed app. Export important records as a ZIP backup before uninstalling.",
+      "If Android backup or device transfer is enabled, app data may be copied to your Google-account backup or another device according to system settings. Manual backups can include sensitive photos and route files as well as missions, records and feeds. ZIP backups also contain complete original videos, including segments not selected for sharing, and edit settings. Older JSON backups can be imported. Do not treat a backup file as an encrypted vault.",
+      "Uninstalling or resetting the app does not automatically remove gallery photos, exported files, system/cloud backups or copies sent to another app. Manage those in the corresponding app, location or backup settings. Delete Health Connect source data through Health Connect or its contributing app.",
+      "Delete all data preserves app font size, language, photo preferences, the global NFC preference, Android permissions, gallery photos, exported backups and Health Connect source data. Map/image/catalog caches are affected by storage cleanup or clearing app data."
+    ],
+    "bullets": []
+  },
+  {
+    "title": "10. Your choices and security",
+    "paragraphs": [
+      "You can disable measurements, helpers or automatic imports and revoke permissions in Android or Health Connect. Revoking permission does not remove previously imported data; delete the corresponding records if desired.",
+      "App-private storage and operating-system permissions restrict access, and online features use HTTPS. No storage or transmission method guarantees absolute security. Device locks, system updates and secure management of exports/backups remain important.",
+      "Personal and health data is not sold or used for advertising. The same protection principles apply to children's information; guardians may contact the operator about processing or deletion."
+    ],
+    "bullets": []
+  },
+  {
+    "title": "11. External services and information you send in inquiries",
+    "paragraphs": [
+      "Maps use OpenStreetMap; terrain tiles use elevation-tiles-prod hosted on Amazon S3. Optional system backup and health-data permission management use Google/Android services. Direct-distribution APK update checks and downloads contact the distribution operator's servers. Services may process connection information when handling requests, under their own retention and privacy policies.",
+      "This public policy page is hosted on GitHub Pages, which may process visitor connection information such as IP addresses. The in-app policy can be read without loading this website.",
+      "If you contact us by email, your address and message are used to answer and resolve the inquiry. Avoid attaching unnecessary sensitive records or health data. You can use the same contact to request access to or deletion of inquiry information."
+    ],
+    "bullets": []
+  },
+  {
+    "title": "12. Changes",
+    "paragraphs": [
+      "If functionality or data handling changes, this policy and its effective date will be updated. Material changes will be communicated through the app or store listing."
+    ],
+    "bullets": []
+  },
+  {
+    "title": "13. Operator and privacy contact",
+    "paragraphs": [
+      "Operator: opensky",
+      "Privacy contact email: eonseok.yoon@opensky.co.kr",
+      "Service: DotiDoit · Android package: com.doti.doit"
+    ],
+    "bullets": []
+  },
+  {
+    "title": "14. Optional automatic mission records and phone observations",
+    "paragraphs": [
+      "Permission purposes and limitations are explained at first launch and again when a feature needs denied access. Other features remain usable. If the system cannot show another permission request, the app links to settings. Normal install-time permissions are managed by Android.",
+      "Automatic recording starts after you review and consent to its purpose, grant the necessary access and activate the mission's automatic recording. The default walking mission is activated when you consent and grant step access during initial setup. Granting permission does not start other missions or photography.",
+      "Daily steps use the Health Connect cumulative total from 00:00 in the mission's configured time zone to the query time for display and success evaluation. Past dates use that date's full-day total. This can include steps from earlier on the same date than consent or mission activation. Consent and activation timestamps are not backdated: the app reads accessible totals for the relevant date only after consent and permission are verified. Other automatic metrics follow their configured observation periods and consent, permission and active intervals.",
+      "On supported devices, separately granting background health-data read access allows periodic updates of selected metrics, records and success evaluation while you are not viewing the app. Without it, open the app to refresh; other features, including direct records, remain available. System power management, permissions and source-app synchronization can delay updates or result in missing values or records that need review.",
+      "With Android usage access, screen, keyguard and related events are processed locally. App usage histories, package names and raw events are not retained or sent to servers or advertising SDKs. The estimated last-use time, unused duration, outcome, observation interval, collection time and uncertainty reason needed for the selected feature are stored in private activity records. This does not measure sleep or use of other devices.",
+      "You can stop automatic recording in the app or revoke access in Android or Health Connect settings. Stopping or revoking access retains existing records until you delete them. Reset or backup restore requires fresh consent before automatic recording can restart. Records are not published automatically. User-selected sharing, exports and ZIP backups, as well as Android system backup and device transfer, follow sections 8 and 9. Health and phone observations are not used for ad targeting."
+    ],
+    "bullets": []
+  }
+]

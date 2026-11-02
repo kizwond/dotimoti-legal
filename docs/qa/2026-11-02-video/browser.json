@@ -1,0 +1,44 @@
+[
+  {
+    "language": "ko",
+    "sections": 14,
+    "exactSource": true,
+    "noOverflow": true
+  },
+  {
+    "language": "en",
+    "sections": 14,
+    "exactSource": true,
+    "noOverflow": true
+  },
+  {
+    "language": "ja",
+    "sections": 14,
+    "exactSource": true,
+    "noOverflow": true
+  },
+  {
+    "language": "zh-Hans",
+    "sections": 14,
+    "exactSource": true,
+    "noOverflow": true
+  },
+  {
+    "language": "zh-Hant",
+    "sections": 14,
+    "exactSource": true,
+    "noOverflow": true
+  },
+  {
+    "language": "es",
+    "sections": 14,
+    "exactSource": true,
+    "noOverflow": true
+  },
+  {
+    "language": "vi",
+    "sections": 14,
+    "exactSource": true,
+    "noOverflow": true
+  }
+]

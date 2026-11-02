@@ -42,4 +42,20 @@ Play에서는 자체 APK 업데이트와 전체화면 알림 권한을 사용하
 
 2026-11-02 개정은 공인미션·이미지 앱 내장, 서버형 루틴 링크 가져오기 종료, 선택한 동영상의
 기기 내 편집·가공 MP4 공유·원본 전체를 포함하는 ZIP 백업을 반영합니다. 앱의 광고 OFF
-한국어·영어 14개 절과 동기화했으며 Preview 1.0.214(371)에 함께 적용합니다.
+한국어·영어 14개 절과 동기화했으며 Preview 1.0.216(373)에 맞춰 7개 언어로 확장했습니다.
+
+## 7개 언어와 재생성
+
+한국어는 위 기본 주소, 나머지는 `en/`, `ja/`, `zh-hans/`, `zh-hant/`, `es/`, `vi/`입니다.
+기존 기본 주소의 `#ko`·`#en` 앵커와 `dotitimer/privacy/` 리디렉션은 유지합니다.
+
+`policy/*.json`은 앱의 광고 OFF 14개 절을 동기화한 배포 원본입니다.
+한국어·영어는 컴파일된 `privacyPolicySections(code, false)`에서 추출하며 나머지 5개는
+앱의 `localization/privacy/*.json`과 같아야 합니다. 수정 후 아래 두 명령을 실행합니다.
+
+```
+python3 scripts/build_privacy.py
+python3 scripts/build_privacy.py --check
+```
+
+앱과 웹의 동영상 원본·편집·MP4 공유·원본 전체 ZIP 백업 설명을 함께 검토하세요.
