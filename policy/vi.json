@@ -9,7 +9,7 @@
   {
     "title": "2. Thông tin lưu trên thiết bị",
     "paragraphs": [
-      "Nhiệm vụ và bài tập: tên, mô tả, ảnh bìa, mục tiêu, hạn chót, các bước, thời lượng, số lần lặp và cài đặt thực hiện. Kết quả: thời điểm bắt đầu\/kết thúc, thời gian đã qua, trạng thái hoàn thành, bộ đếm, ghi chú, ảnh và bản sao chỉnh sửa.",
+      "Nhiệm vụ và bài tập: tên, mô tả, ảnh bìa, mục tiêu, hạn chót, các bước, thời lượng, số lần lặp và cài đặt thực hiện. Kết quả: thời điểm bắt đầu/kết thúc, thời gian đã qua, trạng thái hoàn thành, bộ đếm, ghi chú, ảnh và bản sao chỉnh sửa.",
       "Tùy chức năng đã bật: tọa độ và thời điểm di chuyển, lộ trình, quãng đường, tốc độ, nhịp độ, độ cao, bước chân, tầng và số lần lặp. Dữ liệu Health Connect tùy chọn gồm nhịp tim, bước chân, quãng đường, calo hoạt động và tổng calo, tốc độ, độ cao tích lũy, ứng dụng nguồn, khoảng thời gian, trạng thái và chất lượng truy vấn. Lưu tổng và số mẫu thực tế để tính trung bình theo kỳ, phân biệt với dữ liệu điện thoại.",
       "Cũng lưu giờ nhắc, mã thẻ NFC và nhiệm vụ liên kết, âm thanh, báo thức, Không làm phiền, mã cài đặt ứng dụng, nhiệm vụ và bản ghi. Các mã này không dùng làm mã quảng cáo.",
       "Tệp đính kèm bài đăng: ảnh và video gốc, đoạn được chọn, bố cục, độ tối, tắt tiếng và cài đặt chữ, bản ghi hoặc nhãn dán."
@@ -27,7 +27,7 @@
     "title": "4. Health Connect và thiết bị đeo",
     "paragraphs": [
       "Sau khi bạn đồng ý thu thập các loại dữ liệu đã chọn và cấp quyền, ứng dụng đọc nhịp tim, bước chân, quãng đường, calo hoạt động và tổng calo, tốc độ và độ cao tích lũy đã lưu trong Health Connect, rồi liên kết với kết quả hoạt động. Sự đồng ý, quyền và phạm vi ngày của tự động ghi tuân theo mục 14. Trung bình nhịp tim và tốc độ dùng mẫu nguồn thực tế. Ứng dụng không kết nối trực tiếp thiết bị đeo hay nhận tài khoản, mật khẩu của Zepp hoặc ứng dụng khác. Dữ liệu có thể từ ứng dụng điện thoại; nguồn được hiển thị và không đảm bảo mọi giá trị đều từ đồng hồ.",
-      "Kết quả do bạn bắt đầu được tổng hợp theo thời điểm bắt đầu\/kết thúc. Để tìm bản ghi nhịp tim hoặc calo trải qua khoảng đó, có thể truy vấn dữ liệu được phép truy cập bắt đầu từ trước buổi tập. Có thể trả về dữ liệu cũ không liên quan, nhưng chỉ chọn lưu mẫu, tổng hợp, khoảng thời gian, nguồn và thông tin chẩn đoán liên quan; không lưu toàn bộ lịch sử sức khỏe.",
+      "Kết quả do bạn bắt đầu được tổng hợp theo thời điểm bắt đầu/kết thúc. Để tìm bản ghi nhịp tim hoặc calo trải qua khoảng đó, có thể truy vấn dữ liệu được phép truy cập bắt đầu từ trước buổi tập. Có thể trả về dữ liệu cũ không liên quan, nhưng chỉ chọn lưu mẫu, tổng hợp, khoảng thời gian, nguồn và thông tin chẩn đoán liên quan; không lưu toàn bộ lịch sử sức khỏe.",
       "Chỉ đọc, không ghi vào Health Connect hay xóa bản gốc. Cấp quyền không đảm bảo đã đồng bộ hay có dữ liệu. Độ trễ đồng bộ và độ phân giải nguồn có thể gây thiếu hoặc ước tính khoảng; có thể nhập lại. Dữ liệu dùng cho kết quả, thống kê kỳ, xét tiêu chí thành công, tự xem và chia sẻ do bạn chọn; không bán, quảng cáo hoặc đánh giá tín dụng. Không phục vụ chẩn đoán hay điều trị y tế. Có thể thu hồi từng loại quyền trong Health Connect."
     ],
     "bullets": []
@@ -35,7 +35,7 @@
   {
     "title": "5. Ảnh, video và các quyền khác",
     "paragraphs": [
-      "Camera và chọn ảnh dùng cho chụp theo yêu cầu, đính kèm ảnh đã chọn, tự chụp đã bật và chỉnh sửa. Ảnh chụp trực tiếp hoặc tự động bằng camera DotiDoit còn được sao chép vào album Pictures\/도티두잇 sau khi lưu kết quả. Ảnh nhập từ album không sao chép ngược lần nữa. Có thể giữ bản sao phục vụ kết quả, chỉnh sửa hoặc xem trước trong vùng riêng của ứng dụng.",
+      "Camera và chọn ảnh dùng cho chụp theo yêu cầu, đính kèm ảnh đã chọn, tự chụp đã bật và chỉnh sửa. Ảnh chụp trực tiếp hoặc tự động bằng camera DotiDoit còn được sao chép vào album Pictures/도티두잇 sau khi lưu kết quả. Ảnh nhập từ album không sao chép ngược lần nữa. Có thể giữ bản sao phục vụ kết quả, chỉnh sửa hoặc xem trước trong vùng riêng của ứng dụng.",
       "Hoạt động thể chất đọc cảm biến phát hiện và đếm bước khi thực hiện; độ cao và tầng phụ thuộc cảm biến, cài đặt. Thông báo, báo thức chính xác, rung và khởi động máy phục hồi lịch, hiển thị trạng thái và hoàn thành. APK phân phối trực tiếp hỗ trợ thông báo toàn màn hình; bản Google Play không gồm quyền đó. Dịch vụ tiền cảnh và Wake Lock duy trì hoạt động, âm thanh khi tắt màn hình hoặc chạy nền.",
       "NFC đọc mã thẻ bạn liên kết để mở màn hình thực hiện, không ghi kết quả lên thẻ. Quyền Không làm phiền điều chỉnh gián đoạn trong hoạt động đã chọn. Khi bạn chọn cập nhật APK trực tiếp, Android yêu cầu xác nhận rồi mở cài đặt. Bản Google Play không tự cập nhật APK hay yêu cầu quyền cài ứng dụng. Không yêu cầu quyền danh bạ.",
       "Video được chọn từ album được sao chép vào vùng lưu trữ riêng khi quyền truy cập tạm thời còn hiệu lực. Việc chọn đoạn, bố cục, tắt tiếng và trang trí bản ghi được xử lý trên thiết bị, không sửa bản gốc hay tải lên máy chủ công ty. Khi bạn chủ động chia sẻ ra ngoài, ứng dụng tạo MP4 gồm đoạn đã chọn và bản ghi hiển thị rồi chuyển cho ứng dụng bạn chọn. Bản sao ZIP chứa toàn bộ video gốc, kể cả đoạn không chọn để chia sẻ, cùng thông tin chỉnh sửa. Video nhập vào không tự lưu trùng vào thư viện."
@@ -45,6 +45,7 @@
   {
     "title": "6. Nhiệm vụ chính thức tích hợp và cập nhật",
     "paragraphs": [
+      "Ứng dụng cài từ Google Play có thể kiểm tra phiên bản mới khi mở bằng tính năng cập nhật trong ứng dụng của Play. Khi bạn chọn cập nhật, Google Play xử lý tải xuống và cài đặt. Tính năng này không nhận nhiệm vụ, bản ghi hoạt động, ảnh hay dữ liệu sức khỏe của bạn và không dùng máy chủ phân phối APK của công ty.",
       "Danh sách nhiệm vụ chính thức, cài đặt mặc định và hình minh họa được tích hợp trong ứng dụng. Mở danh sách hay chọn các hình này không kết nối máy chủ. Nhiệm vụ chính thức mới được thêm qua bản cập nhật ứng dụng. Việc xem danh sách không gửi nhiệm vụ riêng, kết quả, ảnh, dữ liệu sức khỏe hay mã tài khoản ra ngoài. APK phân phối trực tiếp có thể kiểm tra cập nhật và tải APK khi bạn yêu cầu; máy chủ phân phối có thể xử lý IP, thời điểm, đường dẫn yêu cầu và thông tin HTTP thông thường. Ưu tiên cục bộ không có nghĩa là không kết nối Internet."
     ],
     "bullets": []
@@ -53,7 +54,7 @@
     "title": "7. Bản đồ và độ cao địa hình",
     "paragraphs": [
       "Hiển thị nền bản đồ của kết quả sẽ yêu cầu ô bản đồ khu vực từ OpenStreetMap cùng thông tin kết nối thông thường. Không tải tệp GPS gốc hay số liệu sức khỏe lên máy chủ bản đồ, nhưng mã ô có thể tiết lộ vùng đang xem. “Ẩn bản đồ” giữ hình lộ trình, không yêu cầu ô bản đồ cho bản ghi đó; “Hiện bản đồ” khôi phục nền. Không xóa GPS gốc hay dừng đo; hình lộ trình tự nó cũng có thể xác định địa điểm.",
-      "Hoạt động bật GPS và độ cao lộ trình tự tính độ cao địa hình khi lưu; bản ghi cũ chưa hiệu chỉnh có thể tự hiệu chỉnh khi xem. Dù ẩn nền hay không, nếu thiếu bộ đệm vẫn yêu cầu ô địa hình Terrarium từ s3.amazonaws.com\/elevation-tiles-prod. Chỉ gửi mã ô và kết nối, không gửi GPS gốc, thời gian hoạt động hay dữ liệu sức khỏe. Nếu lỗi, giữ bản gốc và thử lại lần xem sau. Độ cao địa hình có thể khác tầng nhà hoặc mặt cầu thực tế."
+      "Hoạt động bật GPS và độ cao lộ trình tự tính độ cao địa hình khi lưu; bản ghi cũ chưa hiệu chỉnh có thể tự hiệu chỉnh khi xem. Dù ẩn nền hay không, nếu thiếu bộ đệm vẫn yêu cầu ô địa hình Terrarium từ s3.amazonaws.com/elevation-tiles-prod. Chỉ gửi mã ô và kết nối, không gửi GPS gốc, thời gian hoạt động hay dữ liệu sức khỏe. Nếu lỗi, giữ bản gốc và thử lại lần xem sau. Độ cao địa hình có thể khác tầng nhà hoặc mặt cầu thực tế."
     ],
     "bullets": []
   },
@@ -70,7 +71,7 @@
       "Nhiệm vụ, bài tập, kết quả, bài đăng, ảnh, video và lộ trình riêng và bản sao sức khỏe đã nhập nằm trên thiết bị đến khi bạn xóa từng mục hoặc xóa toàn bộ dữ liệu trong cài đặt. Sau khi đặt lại, hướng dẫn và bài tập mặc định được tạo lại. Xóa dữ liệu hoặc gỡ ứng dụng trong Android cũng ảnh hưởng vùng riêng. Trên màn hình hỗ trợ, chọn giữ dữ liệu khi gỡ có thể để lại dữ liệu; nếu không chọn, dữ liệu riêng bị xóa. Tùy chọn và phục hồi khi cài lại phụ thuộc thiết bị, cách gỡ và ứng dụng. Hãy xuất ZIP các kết quả quan trọng trước khi gỡ.",
       "Nếu bật sao lưu Android hoặc chuyển thiết bị, dữ liệu có thể được sao chép vào bản sao tài khoản Google hay thiết bị khác theo cài đặt hệ thống. Bản sao thủ công có thể gồm ảnh, lộ trình nhạy cảm ngoài nhiệm vụ và kết quả. Hiện dùng ZIP và có thể nhập JSON cũ. Không coi tệp sao lưu là két mã hóa.",
       "Bản sao ZIP chứa toàn bộ video gốc, kể cả đoạn không chọn để chia sẻ, cùng thông tin chỉnh sửa. MP4 chia sẻ chỉ xuất đoạn được chọn, còn bản sao để chỉnh sửa lại vẫn giữ toàn bộ video gốc.",
-      "Gỡ hoặc đặt lại không tự xóa ảnh thư viện, tệp đã xuất, sao lưu hệ thống\/đám mây hoặc bản gửi sang ứng dụng khác. Quản lý ở từng ứng dụng, vị trí hay cài đặt sao lưu. Xóa nguồn Health Connect trong Health Connect hoặc ứng dụng cung cấp. Xóa toàn bộ dữ liệu vẫn giữ cỡ chữ, ngôn ngữ, tùy chọn ảnh và NFC toàn cục, quyền Android, ảnh thư viện, bản sao đã xuất và nguồn Health Connect. Dọn bộ nhớ hoặc xóa dữ liệu ứng dụng ảnh hưởng bộ đệm bản đồ, ảnh và danh sách."
+      "Gỡ hoặc đặt lại không tự xóa ảnh thư viện, tệp đã xuất, sao lưu hệ thống/đám mây hoặc bản gửi sang ứng dụng khác. Quản lý ở từng ứng dụng, vị trí hay cài đặt sao lưu. Xóa nguồn Health Connect trong Health Connect hoặc ứng dụng cung cấp. Xóa toàn bộ dữ liệu vẫn giữ cỡ chữ, ngôn ngữ, tùy chọn ảnh và NFC toàn cục, quyền Android, ảnh thư viện, bản sao đã xuất và nguồn Health Connect. Dọn bộ nhớ hoặc xóa dữ liệu ứng dụng ảnh hưởng bộ đệm bản đồ, ảnh và danh sách."
     ],
     "bullets": []
   },
@@ -84,7 +85,7 @@
   {
     "title": "11. Dịch vụ ngoài và thông tin hỏi đáp",
     "paragraphs": [
-      "Bản đồ dùng OpenStreetMap, ô địa hình dùng elevation-tiles-prod trên Amazon S3. Sao lưu hệ thống và quyền sức khỏe tùy chọn dùng Google\/Android. Việc kiểm tra và tải bản cập nhật của APK phân phối trực tiếp kết nối với máy chủ của bên phân phối. Mỗi dịch vụ có thể xử lý thông tin kết nối theo chính sách lưu giữ và riêng tư riêng. Trang chính sách công khai nằm trên GitHub Pages, có thể xử lý IP và kết nối; chính sách trong ứng dụng đọc được mà không tải trang đó. Email và nội dung bạn gửi được dùng để trả lời, giải quyết vấn đề. Không đính kèm dữ liệu nhạy cảm hay sức khỏe không cần thiết. Có thể yêu cầu xử lý, xem hoặc xóa thông tin hỏi đáp qua cùng địa chỉ."
+      "Bản đồ dùng OpenStreetMap, ô địa hình dùng elevation-tiles-prod trên Amazon S3. Sao lưu hệ thống và quyền sức khỏe tùy chọn dùng Google/Android. Việc kiểm tra và tải bản cập nhật của APK phân phối trực tiếp kết nối với máy chủ của bên phân phối. Mỗi dịch vụ có thể xử lý thông tin kết nối theo chính sách lưu giữ và riêng tư riêng. Trang chính sách công khai nằm trên GitHub Pages, có thể xử lý IP và kết nối; chính sách trong ứng dụng đọc được mà không tải trang đó. Email và nội dung bạn gửi được dùng để trả lời, giải quyết vấn đề. Không đính kèm dữ liệu nhạy cảm hay sức khỏe không cần thiết. Có thể yêu cầu xử lý, xem hoặc xóa thông tin hỏi đáp qua cùng địa chỉ."
     ],
     "bullets": []
   },
@@ -109,18 +110,18 @@
     "paragraphs": [
       "Lần đầu mở và khi chức năng cần quyền, ứng dụng giải thích mục đích, giới hạn khi từ chối và xin phép. Từ chối một quyền không ngăn các chức năng khác; sẽ hướng dẫn lại nơi cần. Nếu hệ thống không cho hỏi lại, ứng dụng dẫn đến cài đặt. Quyền cài đặt thông thường do Android quản lý. Tự động ghi bắt đầu sau khi bạn xem, đồng ý mục đích, cấp quyền và bật nhiệm vụ. Nhiệm vụ đi bộ mặc định được bật khi đồng ý và cho đọc bước trong thiết lập đầu. Cấp quyền không tự bắt đầu nhiệm vụ khác hay chụp ảnh.",
       "Bước hằng ngày dùng tổng Health Connect từ 00:00 theo múi giờ nhiệm vụ đến lúc truy vấn để hiển thị và xét thành công; ngày cũ dùng tổng cả ngày. Có thể gồm bước trước khi đồng ý hay bắt đầu trong cùng ngày, nhưng không lùi mốc đồng ý, kích hoạt: chỉ đọc tổng có thể truy cập sau khi xác minh. Dữ liệu tự động khác tuân theo kỳ quan sát và khoảng đồng ý, quyền, kích hoạt. Trên thiết bị hỗ trợ, cấp riêng quyền đọc sức khỏe nền cho phép cập nhật định kỳ mục đã chọn, kết quả và thành công khi không xem ứng dụng. Không cấp vẫn có thể mở ứng dụng để cập nhật và dùng ghi trực tiếp. Tiết kiệm pin, quyền và đồng bộ nguồn có thể gây trễ, thiếu hoặc cần kiểm tra.",
-      "Có quyền truy cập sử dụng Android thì các sự kiện bật\/tắt màn hình, khóa\/mở khóa được xử lý trong máy. Không giữ lịch sử theo ứng dụng, tên gói hay sự kiện gốc, không gửi đến máy chủ hoặc SDK quảng cáo. Chỉ lưu giờ ước tính dùng lần cuối, thời gian không dùng, kết quả, khoảng quan sát, giờ thu thập và lý do chưa chắc chắn cần cho chức năng đã chọn dưới dạng kết quả riêng. Không đo giấc ngủ hay thiết bị khác. Có thể dừng trong ứng dụng hoặc thu hồi qua Android\/Health Connect; bản đã lưu còn đến khi bạn xóa. Đặt lại hay phục hồi sao lưu cần đồng ý lại. Không tự công khai; chia sẻ, xuất, ZIP và sao lưu\/chuyển Android theo mục 8, 9. Không dùng sức khỏe hoặc quan sát điện thoại để nhắm quảng cáo."
+      "Có quyền truy cập sử dụng Android thì các sự kiện bật/tắt màn hình, khóa/mở khóa được xử lý trong máy. Không giữ lịch sử theo ứng dụng, tên gói hay sự kiện gốc, không gửi đến máy chủ hoặc SDK quảng cáo. Chỉ lưu giờ ước tính dùng lần cuối, thời gian không dùng, kết quả, khoảng quan sát, giờ thu thập và lý do chưa chắc chắn cần cho chức năng đã chọn dưới dạng kết quả riêng. Không đo giấc ngủ hay thiết bị khác. Có thể dừng trong ứng dụng hoặc thu hồi qua Android/Health Connect; bản đã lưu còn đến khi bạn xóa. Đặt lại hay phục hồi sao lưu cần đồng ý lại. Không tự công khai; chia sẻ, xuất, ZIP và sao lưu/chuyển Android theo mục 8, 9. Không dùng sức khỏe hoặc quan sát điện thoại để nhắm quảng cáo."
     ],
     "bullets": []
   },
   {
     "title": "Quảng cáo và lựa chọn quyền riêng tư",
     "paragraphs": [
-      "Phiên bản này dùng Google AdMob và SDK UMP để quản lý sự đồng ý. Để phân phối, đo lường quảng cáo và ngăn gian lận, SDK quảng cáo của Google có thể xử lý địa chỉ IP (kể cả ước tính vị trí gần đúng), mã nhận dạng thiết bị\/quảng cáo, tương tác với ứng dụng\/quảng cáo và dữ liệu chẩn đoán, có mã hóa khi truyền.",
+      "Phiên bản này dùng Google AdMob và SDK UMP để quản lý sự đồng ý. Để phân phối, đo lường quảng cáo và ngăn gian lận, SDK quảng cáo của Google có thể xử lý địa chỉ IP (kể cả ước tính vị trí gần đúng), mã nhận dạng thiết bị/quảng cáo, tương tác với ứng dụng/quảng cáo và dữ liệu chẩn đoán, có mã hóa khi truyền.",
       "Tên nhiệm vụ, ghi chú, ảnh, video, lộ trình GPS và dữ liệu Health Connect của bạn không được gửi cho SDK quảng cáo để nhắm mục tiêu quảng cáo. Việc xử lý của SDK tách biệt với các bản ghi hoạt động lưu trên thiết bị.",
       "Quản lý lựa chọn phù hợp trong biểu mẫu đồng ý của Google. Khi Google yêu cầu lối vào để thay đổi lựa chọn, hãy mở lại qua «Quyền riêng tư quảng cáo» trong Cài đặt. Bạn vẫn dùng được nhiệm vụ khi biểu mẫu đồng ý gặp lỗi hoặc không được phép yêu cầu quảng cáo.",
       "Đặt lại dữ liệu ứng dụng không tự động xóa dữ liệu quảng cáo do Google xử lý. Bạn có thể quản lý mã quảng cáo trong phần cài đặt quảng cáo của Android; hãy xem Chính sách quyền riêng tư của Google về cách quản lý và lưu giữ dữ liệu.",
-      "Chính sách quyền riêng tư của Google: https:\/\/policies.google.com\/privacy · Thông tin dữ liệu SDK: https:\/\/developers.google.com\/admob\/android\/privacy\/play-data-disclosure"
+      "Chính sách quyền riêng tư của Google: https://policies.google.com/privacy · Thông tin dữ liệu SDK: https://developers.google.com/admob/android/privacy/play-data-disclosure"
     ],
     "bullets": []
   }
