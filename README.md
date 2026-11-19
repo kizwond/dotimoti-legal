@@ -1,3 +1,28 @@
+# 도티 앱 개인정보처리방침
+
+2026-11-19부터 같은 GitHub Pages 사이트에서 앱별 방침을 제공합니다.
+
+- 도티두잇: https://kizwond.github.io/dotimoti-legal/dotidoit/privacy/
+- 도티모티: https://kizwond.github.io/dotimoti-legal/dotimoti/privacy/
+
+상단 앱 전환은 별도 주소로 이동하며 JavaScript를 요구하지 않습니다. Play Console에는 앱에 해당하는 직접 주소를 사용합니다. 두잇 본문/시행일/기존 앵커와 보관본은 유지합니다.
+
+## 모티 본문 갱신
+
+원본은 새 모티 앱의 `privacyPolicySections` 런타임 결과입니다. `MotiPublicPrivacyInstrumentedTest`가 실제7언어 본문·공개 URL·시행일을 추출하고 공개 링크 콜백을 검사합니다. 앱의 `scripts/sync_moti_privacy.py`로 `policy/dotimoti/*.json`을 동기화한 뒤 다음을 실행합니다.
+
+```
+python3 scripts/build_privacy.py
+python3 scripts/build_moti_privacy.py
+python3 scripts/check_moti_privacy.py
+```
+
+모티의 계정 비공개 저장은 SNS 공개와 다릅니다. 공통 HTML 탐색만 공유하며 두잇 광고 방침을 모티에 적용하지 않습니다. 모티는 현재 광고 OFF 프리뷰이며 정식 Play 식별자/서명/최종 빌드와 Console 신고는 별도 출시 단계입니다.
+
+아래는 두잇 방침 운영 이력입니다. ‘두잇만 제공’ 등 과거 설명보다 위의 앱별 주소와 현재 생성 스크립트를 우선합니다.
+
+---
+
 # DotiDoit Legal Pages
 
 도티두잇(DotiDoit, Android package `com.doti.doit`)의 공개 개인정보처리방침입니다.

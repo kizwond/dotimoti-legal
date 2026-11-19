@@ -28,8 +28,8 @@ NOTICES = {
 }
 e = html.escape
 
-def article(code, sections):
-    assert len(sections) == 15, (code, 'expected fifteen sections')
+def article(code, sections, expected=15):
+    assert len(sections) == expected, (code, 'expected fifteen sections')
     result = f'<article id="{code}" lang="{code}">'
     for section in sections:
         result += '<section><h2>' + e(section['title']) + '</h2>'
@@ -39,10 +39,18 @@ def article(code, sections):
         result += '</section>\n'
     return result + '</article>'
 
+def app_navigation(current, path):
+    return '<nav class="apps" aria-label="Doti apps">' + ''.join(
+        f'<a href="https://kizwond.github.io/dotimoti-legal/{app}/privacy/{path}"'
+        + (' aria-current="page"' if app == current else '') + f'>{label}</a>'
+        for app, label in [('dotidoit', 'DotiDoit'), ('dotimoti', 'DotiMoti')]) + '</nav>'
+
+
 def render(language, sources):
     code, path, name, title, effective = language
     nav = ''.join(f'<a href="{BASE}{p}" lang="{c}" hreflang="{c}"' + (' aria-current="page"' if c == code else '') + f'>{e(n)}</a>' for c,p,n,_,_ in LANGUAGES)
     alternates = ''.join(f'<link rel="alternate" hreflang="{c}" href="{BASE}{p}">' for c,p,_,_,_ in LANGUAGES)
+    apps = app_navigation("dotidoit", path)
     content = article(code, sources[code])
     # Preserve the historic root #ko and #en anchors used by existing installations/bookmarks.
     if code == 'ko':
@@ -53,7 +61,7 @@ def render(language, sources):
 <link rel="alternate" hreflang="x-default" href="{BASE}">
 <style>
 *{{box-sizing:border-box}}body{{margin:0;background:#fbfdfc;color:#17202f;font-family:system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.75;overflow-wrap:anywhere}}main{{max-width:920px;margin:auto;padding:40px 20px 72px}}header,footer{{border-bottom:1px solid #e4e7ec;padding-bottom:24px;margin-bottom:28px}}h1{{font-size:clamp(30px,6vw,54px);line-height:1.2;letter-spacing:-.03em}}h2{{font-size:24px;margin:32px 0 12px;line-height:1.4}}p,li{{font-size:16px}}p{{margin:0 0 14px}}ul{{padding-left:22px}}nav{{display:flex;flex-wrap:wrap;gap:8px 16px}}a{{color:#115e59}}a[aria-current]{{font-weight:800}}.muted,footer{{color:#667085}}.divider{{border-top:1px solid #e4e7ec;margin-top:52px;padding-top:20px}}footer{{border-top:1px solid #e4e7ec;border-bottom:0;margin-top:40px;padding-top:20px}}
-</style></head><body><main><header><p class="muted">DotiDoit · opensky</p><h1>{e(title)}</h1><p>{e(effective)}</p><p>{e(NOTICES[code])}</p><nav aria-label="{e(LANGUAGE_LABELS[code])}">{nav}</nav></header>
+</style></head><body><main><header><p class="muted">DotiDoit · opensky</p><h1>{e(title)}</h1><p>{e(effective)}</p><p>{e(NOTICES[code])}</p>{apps}<nav aria-label="{e(LANGUAGE_LABELS[code])}">{nav}</nav></header>
 {content}
 <footer>© opensky · <a href="mailto:eonseok.yoon@opensky.co.kr">eonseok.yoon@opensky.co.kr</a></footer></main></body></html>
 '''

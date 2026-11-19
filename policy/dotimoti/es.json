@@ -1,0 +1,182 @@
+{
+  "language": "es",
+  "effectiveDate": "2026-11-19",
+  "publicUrl": "https://kizwond.github.io/dotimoti-legal/dotimoti/privacy/es/",
+  "deletionUrl": "https://220.85.48.155/dotimoti-api/account/delete/",
+  "deletionLabel": "Eliminar cuenta",
+  "versionCode": 78,
+  "sections": [
+    {
+      "title": "1. Alcance y principios",
+      "paragraphs": [
+        "com.dotimoti.app.next · DotiMoti ofrece misiones, rutinas y registros privados vinculados a tu cuenta, con publicaciones opcionales en la red social. No incluye misiones conjuntas ni donaciones.",
+        "Tus misiones y registros privados se guardan en tu cuenta. No se publican hasta que tú lo decidas.",
+        "Protege tu contraseña. Se prohíben contenidos ilegales, acoso e infracciones de derechos. Denuncia contenidos o usuarios al personal. Bloquear impide mensajes, comentarios y apoyos en ambos sentidos."
+      ],
+      "bullets": []
+    },
+    {
+      "title": "Registros privados de la cuenta",
+      "paragraphs": [
+        "Tus misiones y registros privados se guardan en tu cuenta. No se publican hasta que tú lo decidas.",
+        "Misiones y rutinas: nombres, descripciones, portadas, objetivos, plazos, pasos, duraciones, repeticiones y ajustes de ejecución. Registros: horas de inicio y fin, tiempo transcurrido, estado de finalización, contadores, notas, fotos y copias de edición.",
+        "Según las mediciones activadas: coordenadas y horas de desplazamiento, rutas, distancia, velocidad, ritmo, altitud, pasos, pisos y repeticiones. Las importaciones opcionales de Health Connect incluyen pulso, pasos, distancia, calorías activas y totales, velocidad, desnivel positivo, aplicaciones de origen, intervalos y estado o calidad de lectura. Se conservan sumas y cantidades de muestras reales para calcular medias del período, distinguiendo las mediciones del teléfono.",
+        "También se guardan horarios de recordatorios, identificadores NFC y sus misiones, sonidos, alarmas, ajustes de No molestar e identificadores locales de instalación, misión y registro. Estos no se usan como identificadores publicitarios.",
+        "Adjuntos de las publicaciones: fotos y vídeos originales, segmentos seleccionados, disposición, oscurecimiento, silencio y ajustes de texto, registros o pegatinas."
+      ],
+      "bullets": []
+    },
+    {
+      "title": "3. Ubicación y ayudas de inicio",
+      "paragraphs": [
+        "Al activar la medición de movimiento, la ubicación permite registrar ruta y distancia. Un servicio en primer plano puede continuar mientras se usa otra aplicación o la pantalla está apagada. La versión actual no ofrece avisos de llegada ni detección de ubicación en segundo plano antes de iniciar. Los recordatorios y las etiquetas NFC abren la misión asociada. Pueden desactivarse al editar la misión; revocar ubicación en Android limita la medición de ruta y distancia."
+      ],
+      "bullets": []
+    },
+    {
+      "title": "4. Health Connect y dispositivos de actividad",
+      "paragraphs": [
+        "Tras consentir los tipos de datos y conceder acceso, se leen el pulso, los pasos, la distancia, las calorías activas y totales, la velocidad y el desnivel positivo ya guardados en Health Connect. El registro automático sigue el consentimiento, los permisos y el alcance diario de la sección 14; las medias de pulso y velocidad usan muestras reales de origen. No se conecta directamente a dispositivos ni recibe credenciales de aplicaciones como Zepp. Los datos también pueden proceder de aplicaciones del teléfono; se muestra su origen y no se garantiza que todo provenga de un reloj.",
+        "Los resúmenes de actividades iniciadas por el usuario usan sus horas de inicio y fin. Para encontrar registros de pulso o calorías que atraviesen ese intervalo, pueden consultarse registros accesibles anteriores al inicio. La consulta puede devolver datos antiguos ajenos, pero solo se conservan muestras, resúmenes, intervalos, procedencia y diagnósticos relacionados con la actividad, no todo el historial de salud.",
+        "El acceso es de solo lectura: no se escribe en Health Connect ni se borran originales. El permiso no garantiza sincronización o datos disponibles. Las demoras de origen y la resolución de los registros pueden causar ausencias o estimaciones; se puede volver a importar. Se usan para registros, estadísticas, evaluación de los criterios de éxito, revisión personal y uso compartido elegido, nunca para venta, publicidad o decisiones crediticias. No es una herramienta de diagnóstico o tratamiento médico. Se puede revocar cada tipo de permiso en Health Connect."
+      ],
+      "bullets": []
+    },
+    {
+      "title": "5. Fotos, vídeos y otros permisos",
+      "paragraphs": [],
+      "bullets": [
+        "Los vídeos elegidos se copian al almacenamiento privado de la aplicación. El recorte y la superposición de registros se procesan en el dispositivo. Los originales adjuntos y los ajustes se guardan de forma privada en tu cuenta. Al publicar o compartir se envían solo los medios y registros elegidos; no se modifican los originales de la galería.",
+        "Las fotos tomadas con DotiMoti, incluida la captura automática activada, se copian también a Pictures/도티모티 tras guardar el registro. Las fotos importadas no se duplican en la galería. Las copias adjuntas y los ajustes se guardan de forma privada en la cuenta.",
+        "Las notificaciones, la vibración y las alarmas exactas autorizadas permiten recordatorios y controles de actividad. Las mediciones y el audio activos pueden continuar mediante un servicio en primer plano con la pantalla apagada. La aplicación actual no usa permiso de alarma a pantalla completa.",
+        "Los permisos de cámara y actividad física permiten las capturas y mediciones de pasos elegidas. NFC solo lee una etiqueta que hayas vinculado para abrir una misión. El acceso opcional a No molestar ajusta ese modo durante la actividad. Puedes revocar los permisos en los ajustes de Android."
+      ]
+    },
+    {
+      "title": "6. Misiones oficiales integradas y actualizaciones",
+      "paragraphs": [
+        "El catálogo público de misiones, los ajustes predeterminados y las ilustraciones están incluidos en la aplicación. Abrir el catálogo o elegir sus imágenes no conecta con un servidor. Las nuevas misiones oficiales llegan mediante actualizaciones de la aplicación. Consultar el catálogo no envía misiones personales, registros, fotos, datos de salud ni tokens de cuenta al exterior. Los APK de distribución directa pueden comprobar actualizaciones y descargar un APK cuando se solicita; los servidores de distribución pueden procesar IP, hora y ruta de la petición y datos HTTP ordinarios. Priorizar el almacenamiento local no significa ausencia de conexiones a Internet.",
+        "Esta versión de desarrollo consulta el servidor exclusivo de DotiMoti Next mediante HTTPS. Solo descarga el APK cuando eliges actualizar, verifica su hash, identidad y certificado de firma de la app instalada, y lo instala tras la confirmación de Android. Las solicitudes incluyen datos normales de conexión como IP y hora, sin registros privados ni credenciales. El catálogo oficial incluido funciona sin conexión."
+      ],
+      "bullets": []
+    },
+    {
+      "title": "7. Mapas y altitud del terreno",
+      "paragraphs": [
+        "Mostrar el mapa de un registro solicita teselas regionales a OpenStreetMap con datos de conexión ordinarios. No se suben archivos GPS originales ni valores de salud, aunque las teselas pueden revelar la zona consultada. «Ocultar mapa» muestra solo la forma de la ruta sin pedir teselas para ese registro; «Mostrar mapa» restaura el fondo. No borra el GPS ni detiene la medición, y la forma de la ruta puede identificar un lugar.",
+        "Las actividades con GPS y altitud activados calculan automáticamente la altitud del terreno al guardar; registros anteriores sin corregir también pueden corregirse al abrirlos. Aunque el fondo esté oculto, si faltan teselas en caché se solicitan teselas Terrarium a s3.amazonaws.com/elevation-tiles-prod. Se envían identificadores de tesela y conexión, no archivos GPS, horas de actividad ni datos de salud. Si falla, se preserva el original y se reintenta al volver. La altitud del terreno puede diferir de pisos de edificios o tableros de puentes."
+      ],
+      "bullets": []
+    },
+    {
+      "title": "Registros privados y uso compartido externo",
+      "paragraphs": [
+        "Tus misiones y registros privados se guardan en tu cuenta. No se publican hasta que tú lo decidas.",
+        "Al compartir o exportar, los datos se envían a la aplicación o destino elegido. Un GPX puede incluir coordenadas y horas exactas aunque el fondo del mapa esté oculto. Revisa los destinatarios y el alcance; las copias compartidas no se pueden recuperar."
+      ],
+      "bullets": []
+    },
+    {
+      "title": "Conservación y eliminación de la cuenta",
+      "paragraphs": [
+        "Tus misiones y registros privados se guardan en tu cuenta. No se publican hasta que tú lo decidas.",
+        "Solicita la eliminación en Ajustes o en la web. Se suspenden el acceso y los posts públicos. Entrar antes de 30 días cancela la solicitud. Después se eliminan cuenta, registros, posts, comentarios, apoyos, chats y adjuntos. La galería no cambia.",
+        "Desinstalar la aplicación o borrar sus datos del dispositivo no elimina la cuenta ni los registros del servidor. Usa la eliminación de cuenta para borrar esos datos. Los originales de la galería, Health Connect y las copias compartidas se gestionan en sus respectivos destinos. Las copias del dispositivo no usan la copia automática de Android."
+      ],
+      "bullets": []
+    },
+    {
+      "title": "10. Elecciones y seguridad",
+      "paragraphs": [
+        "Se pueden desactivar mediciones, ayudas o importaciones y revocar permisos en Android o Health Connect. Revocar no elimina datos ya importados; borre el registro si lo desea. El almacenamiento privado y los permisos restringen el acceso; las funciones en línea usan HTTPS. Ningún almacenamiento o transmisión garantiza seguridad absoluta. Bloquear el dispositivo, actualizar el sistema y proteger exportaciones y copias es importante. No se venden datos personales o de salud ni se usan para publicidad. Se aplican los mismos principios a menores; sus tutores pueden consultar sobre tratamiento o eliminación."
+      ],
+      "bullets": []
+    },
+    {
+      "title": "11. Servicios externos y consultas",
+      "paragraphs": [
+        "Los mapas usan OpenStreetMap y relieve de Amazon. Los permisos opcionales de salud usan Android. Las solicitudes HTTPS incluyen IP y hora.",
+        "Esta política se publica en GitHub Pages, donde GitHub puede procesar direcciones IP y datos normales de conexión. El mismo texto está incluido en la aplicación para leerlo sin conexión. DotiMoti no incluye actualmente SDK de publicidad ni análisis de comportamiento."
+      ],
+      "bullets": []
+    },
+    {
+      "title": "12. Cambios",
+      "paragraphs": [
+        "Los cambios de funciones o tratamiento de datos actualizarán esta política y su fecha de vigencia. Los cambios importantes se anunciarán en la aplicación o ficha de la tienda."
+      ],
+      "bullets": []
+    },
+    {
+      "title": "13. Operador y contacto de privacidad",
+      "paragraphs": [
+        "Operador: opensky",
+        "Correo de privacidad: eonseok.yoon@opensky.co.kr",
+        "Servicio: DotiMoti · Paquete Android: com.dotimoti.app.next"
+      ],
+      "bullets": []
+    },
+    {
+      "title": "14. Registro automático opcional y observación del teléfono",
+      "paragraphs": [
+        "El registro automático empieza solo con consentimiento, permisos y misión activada. El acceso de uso procesa eventos de pantalla y bloqueo en el dispositivo para estimar el último uso del teléfono, no el sueño ni otros dispositivos. Dar permiso no inicia otras mediciones o capturas.",
+        "Los pasos diarios leen el total de Health Connect desde las 00:00 de la zona de la misión, incluso pasos accesibles anteriores al consentimiento ese día. Las fechas pasadas usan el total del día. Un permiso adicional permite actualizar en segundo plano en dispositivos compatibles; sin él, se actualiza al abrir la aplicación. El ahorro de energía, la sincronización y los permisos pueden retrasar o impedir la actualización.",
+        "Puedes detener el registro automático o revocar el acceso en Android o Health Connect. Los registros existentes se conservan hasta que los elimines. Restablecer los datos requiere nuevo consentimiento. Revocar un permiso no elimina los registros de la cuenta ni los originales de Health Connect. Los datos de salud y observación del teléfono no se usan para publicidad.",
+        "Los resultados derivados de la observación del teléfono se guardan de forma privada con tus registros. No se suben eventos de uso sin procesar, nombres de paquetes ni historiales por aplicación. El acceso autorizado y la conservación privada no publican estos registros en la red social."
+      ],
+      "bullets": []
+    },
+    {
+      "title": "Cuenta de DotiMoti",
+      "paragraphs": [
+        "ID · El registro y la recuperación usan tu ID, contraseña, nombre visible y correo verificado. Las contraseñas se procesan como hashes en el servidor. Los códigos caducan; cambiar la contraseña cierra las sesiones en todos los dispositivos.",
+        "El servidor devuelve el perfil y las credenciales de sesión. El token de acceso permanece en memoria. Solo se guardan la credencial de renovación cifrada y el perfil en el almacenamiento privado, excluidos de las copias de Android y de registros exportados. No se guardan contraseñas. Las credenciales quedan vinculadas a su servidor.",
+        "Tus misiones y registros privados se guardan en tu cuenta. No se publican hasta que tú lo decidas.",
+        "Solicita la eliminación en Ajustes o en la web. Se suspenden el acceso y los posts públicos. Entrar antes de 30 días cancela la solicitud. Después se eliminan cuenta, registros, posts, comentarios, apoyos, chats y adjuntos. La galería no cambia."
+      ],
+      "bullets": []
+    },
+    {
+      "title": "16. Uso opcional de SNS",
+      "paragraphs": [
+        "Al publicar se suben las fotos seleccionadas, los vídeos editados, las tarjetas y el texto. También se comparte la configuración de la misión para que otros puedan añadirla. No se suben GPS original, muestras de salud ni registros originales.",
+        "Los posts normales siguen la audiencia pública o de seguidores aprobados. El descanso SNS oculta posts o pausa comentarios sin borrar historial. Las pruebas de campaña siguen públicas con comentarios.",
+        "Los posts restringidos no se hacen públicos de forma masiva.",
+        "La audiencia afecta posts pasados y futuros. Archivar oculta el post y feed privado, conservando reacciones de solo lectura. Despublicar borra reacciones y devuelve el feed privado. No se recuperan copias descargadas o compartidas.",
+        "Una copia por cuenta reintenta publicaciones sin duplicados. Las cuentas se aíslan al salir. Borrar un post conserva el original privado; eliminar la cuenta lo borra tras el plazo.",
+        "El feed privado y el post SNS se editan por separado; eliges si copias los cambios. Las mediciones originales no cambian. Añadir una misión compartida crea tu misión independiente."
+      ],
+      "bullets": []
+    },
+    {
+      "title": "17. Perfil público",
+      "paragraphs": [
+        "La búsqueda usa posts públicos, personas y misiones oficiales. Los términos de personas van al servidor, sin guardarse en registros privados. Buscar no publica tus registros.",
+        "Al guardar el perfil, el nombre, lema, presentación y nueva foto se envían al servidor y se muestran a otros usuarios. Las fotos se reducen y recodifican sin los metadatos de ubicación originales. Cancelar no sube la foto elegida. Las fotos anteriores pueden permanecer en el servidor tras cambiarlas o quitarlas; cualquiera que conozca su URL puede abrirlas."
+      ],
+      "bullets": []
+    },
+    {
+      "title": "18. Mensajes directos",
+      "paragraphs": [
+        "Los textos, fotos e IDs de DM se guardan por HTTPS, sin cifrado de extremo a extremo. Las fotos requieren autorización del emisor o receptor; la URL no basta. Se recodifican sin ubicación. Abrir el chat actualiza la lectura.",
+        "Los borradores DM y fotos se guardan por cuenta y destinatario en el dispositivo y se envían al conectarse sin duplicados. Vaciar o salir oculta solo tu copia. FCM usa tokens para avisos sin texto ni salud. El permiso es opcional; al salir cesan avisos de la cuenta anterior."
+      ],
+      "bullets": []
+    },
+    {
+      "title": "19. Consultas de soporte",
+      "paragraphs": [
+        "Al enviar una consulta o pregunta adicional se envían tu ID de cuenta, categoría, título y texto revisado al servidor de cuentas. Solo tú y el personal autorizado podéis acceder a la conversación. Las respuestas aparecen en la consulta y las notificaciones de la app. Las consultas no son publicaciones SNS y no se hacen públicas al descansar de SNS o cambiar la audiencia. El texto sin enviar solo se conserva en memoria; no incluyas contraseñas ni información de salud sensible."
+      ],
+      "bullets": []
+    },
+    {
+      "title": "Registros privados de la cuenta",
+      "paragraphs": [
+        "Las misiones, rutinas, registros y adjuntos privados se guardan por HTTPS en la cuenta. Las copias locales protegen ediciones sin conexión y reintentan al reconectar o reiniciar. Los conflictos se conservan para revisión. Los reintentos no detienen la medición. No se importan registros antiguos."
+      ],
+      "bullets": []
+    }
+  ]
+}

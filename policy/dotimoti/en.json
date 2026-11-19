@@ -1,0 +1,192 @@
+{
+  "language": "en",
+  "effectiveDate": "2026-11-19",
+  "publicUrl": "https://kizwond.github.io/dotimoti-legal/dotimoti/privacy/en/",
+  "deletionUrl": "https://220.85.48.155/dotimoti-api/account/delete/",
+  "deletionLabel": "Delete account",
+  "versionCode": 78,
+  "sections": [
+    {
+      "title": "1. Scope and principles",
+      "paragraphs": [
+        "com.dotimoti.app.next · DotiMoti provides account-based missions, routines and private records, with optional SNS sharing. Joint missions and donations are not included.",
+        "Your missions and private records are stored in your account. They stay private until you publish them.",
+        "Keep your password private. Illegal content, harassment and rights violations are prohibited. Report content or users for staff review. Blocking prevents messages, comments and cheers in both directions."
+      ],
+      "bullets": []
+    },
+    {
+      "title": "Private account records",
+      "paragraphs": [
+        "Your missions and private records are stored in your account. They stay private until you publish them."
+      ],
+      "bullets": [
+        "Missions and tools: names, descriptions, covers, targets, deadlines, routine steps, durations, repetitions and execution settings.",
+        "Activity records: start/end times, elapsed time, completion state, counters, notes, photos and editing copies.",
+        "Feed attachments: original photos and videos, selected segments, layout, dimming, mute and text, record or sticker edit settings.",
+        "Phone measurements, when enabled: coordinates and timestamps, routes, distance, speed, pace, elevation, steps, floors and repetition counts.",
+        "Optional health imports: heart rate, steps, distance, active and total calories, speed, elevation gained, contributing apps, intervals and import status/quality from Health Connect. Sample sums and counts support period averages. Phone measurements remain separately labeled.",
+        "Helpers and preferences: reminder times, NFC tag identifiers and mission bindings, sounds, alarms and Do Not Disturb preferences.",
+        "Local identifiers: app-installation, mission and record identifiers. These are not used as advertising identifiers."
+      ]
+    },
+    {
+      "title": "3. Location and mission-start helpers",
+      "paragraphs": [
+        "When movement measurement is enabled for a run, location is used to record its route and distance. A foreground service can continue that measurement while another app is visible or the screen is off.",
+        "The current release does not provide arrival reminders or pre-run background location detection. Time reminders and NFC tags open the linked mission screen.",
+        "Time reminders and NFC start can be disabled in mission editing. Location permissions can be revoked in Android settings, which limits route and distance measurement."
+      ],
+      "bullets": []
+    },
+    {
+      "title": "4. Health Connect and wearable data",
+      "paragraphs": [
+        "After you consent to the selected data types and grant access, the app reads heart rate, steps, distance, active and total calories, speed and elevation gained already stored in Health Connect. Automatic recording follows the consent, access and calendar-day scope described in section 14; heart rate and speed averages use actual source samples. It does not connect directly to a wearable or receive account credentials for apps such as Zepp. Data may also originate from phone apps; contributing apps are shown and wearable origin is not guaranteed.",
+        "Health summaries for user-started runs use the run's start and end times. To find heart-rate or calorie records spanning that window, the app can also query accessible records that began before the run. Unrelated earlier records may be returned during that search; the app retains selected activity-related samples, summaries, intervals, provenance and diagnostic information, not a wholesale copy of all past health history.",
+        "Access is read-only: the app does not write to Health Connect or delete its source records. Permission alone does not guarantee synchronization or available data. Source-app delays and interval resolution can cause missing or estimated results; you can import again.",
+        "Health data supports activity records, period statistics, evaluation of your configured success criteria, personal review and user-selected record sharing, not sale, advertising or credit decisions. The app is not for medical diagnosis or treatment. You can revoke individual data permissions in Health Connect settings."
+      ],
+      "bullets": []
+    },
+    {
+      "title": "5. Photos, videos and other permissions",
+      "paragraphs": [],
+      "bullets": [
+        "Selected videos are copied into app-private storage. Trimming and record overlays are processed on the device. Original attachments and edit settings are stored privately in your account. Publishing or external sharing sends only the media and record content you select; gallery originals are not modified.",
+        "Photos taken by DotiMoti, including enabled automatic capture, are also copied to Pictures/도티모티 after the record is saved. Imported album photos are not duplicated into the gallery. App copies and edit information are stored privately in the account.",
+        "Notifications, vibration and permitted exact alarms support mission reminders and ongoing activity controls. Active measurements and audio may continue through a foreground service while the screen is off. The current app does not use full-screen alarm permission.",
+        "Camera and motion permissions support selected captures and step measurements. NFC reads only a tag linked by you to open a mission. Optional Do Not Disturb access adjusts that mode during your activity. You can revoke these permissions in Android settings."
+      ]
+    },
+    {
+      "title": "6. Bundled official missions and update connections",
+      "paragraphs": [
+        "The public mission catalog, default settings and illustrations are bundled with the app. Opening the catalog or selecting its images does not contact a server. New official missions arrive in app updates. Catalog browsing does not send your missions, activity records, photos, health readings or account tokens to an external server.",
+        "This development build checks the dedicated DotiMoti Next update server over HTTPS. APK files are downloaded only when you choose to update, verified against their hash, app identity and installed signing certificate, and installed after Android confirmation. Requests involve normal connection information such as IP address and request time, not private records or account credentials. The bundled official mission catalog remains available offline."
+      ],
+      "bullets": []
+    },
+    {
+      "title": "7. Maps and terrain elevation",
+      "paragraphs": [
+        "Displaying a record's map background requests regional map tiles from OpenStreetMap, with ordinary connection information. Original GPS route files and health readings are not uploaded to the tile server, but tile identifiers can reveal the viewed area.",
+        "The per-record route menu provides ‘Hide map’, which keeps the route shape visible without requesting map tiles for that record, and ‘Show map’, which restores the background. This choice does not delete original GPS data or stop measurement. A route shape itself may identify a place.",
+        "Runs with GPS and route elevation enabled automatically calculate terrain elevation when saved. Existing uncorrected records may also be corrected when viewed. Regardless of per-record map-background visibility, missing cached tiles are requested from s3.amazonaws.com/elevation-tiles-prod. Tile identifiers and connection information are sent, not original GPS files, activity timestamps or health readings. Failed corrections preserve original data and retry on the next visit. Terrain height may differ from building floors or bridge decks."
+      ],
+      "bullets": []
+    },
+    {
+      "title": "Private records and external sharing",
+      "paragraphs": [
+        "Your missions and private records are stored in your account. They stay private until you publish them.",
+        "When you choose external sharing or export, data is sent to the app or destination you select. GPX may include precise coordinates and times even when the map background is hidden. Check recipients and sharing scope; shared copies cannot be recalled."
+      ],
+      "bullets": []
+    },
+    {
+      "title": "Account storage and retention",
+      "paragraphs": [
+        "Your missions and private records are stored in your account. They stay private until you publish them.",
+        "Request deletion in Settings or on the account deletion website. Access and public posts stop immediately. Signing in within 30 days cancels the request. After 30 days the account, records, posts, comments, cheers, conversations and attachments are deleted. Phone gallery originals are unaffected.",
+        "Removing the app or clearing its device data does not delete your account or server records. Use account deletion to remove account data. Gallery originals, Health Connect originals and copies already shared externally must be managed at their respective locations. Device copies do not use Android automatic backup."
+      ],
+      "bullets": []
+    },
+    {
+      "title": "10. Your choices and security",
+      "paragraphs": [
+        "You can disable measurements, helpers or automatic imports and revoke permissions in Android or Health Connect. Revoking permission does not remove previously imported data; delete the corresponding records if desired.",
+        "App-private storage and operating-system permissions restrict access, and online features use HTTPS. No storage or transmission method guarantees absolute security. Device locks, system updates and secure management of exports/backups remain important.",
+        "Personal and health data is not sold or used for advertising. The same protection principles apply to children's information; guardians may contact the operator about processing or deletion."
+      ],
+      "bullets": []
+    },
+    {
+      "title": "11. External services and information you send in inquiries",
+      "paragraphs": [
+        "Maps use OpenStreetMap and Amazon terrain tiles. Optional health permissions use Android services. HTTPS requests to the account server include IP addresses and request times.",
+        "This policy is published on GitHub Pages, where GitHub may process IP addresses and normal connection information. The same text is bundled in the app and can be read offline. The current DotiMoti app does not include advertising or behavioral analytics SDKs."
+      ],
+      "bullets": []
+    },
+    {
+      "title": "12. Changes",
+      "paragraphs": [
+        "If functionality or data handling changes, this policy and its effective date will be updated. Material changes will be communicated through the app or store listing."
+      ],
+      "bullets": []
+    },
+    {
+      "title": "13. Operator and privacy contact",
+      "paragraphs": [
+        "Operator: opensky",
+        "Privacy contact email: eonseok.yoon@opensky.co.kr",
+        "Service: DotiMoti · Android package: com.dotimoti.app.next"
+      ],
+      "bullets": []
+    },
+    {
+      "title": "14. Optional automatic mission records and phone observations",
+      "paragraphs": [
+        "Automatic recording starts only after consent, required permissions and mission activation. Usage Access processes screen and lock events on the device to estimate last phone use, not sleep or use of other devices. Granting access does not start unrelated measurements or photography.",
+        "Daily steps read the Health Connect total from 00:00 in the mission time zone, including accessible steps earlier that day than consent. Past dates use the full-day total. Separately allowed background health access permits periodic updates on supported devices; otherwise opening the app refreshes records. Power saving, source sync and permissions can delay or prevent updates.",
+        "Stop automatic recording in the app or revoke access in Android or Health Connect settings. Existing records remain until you delete them. Resetting app data requires fresh consent. Revoking a permission does not delete account records or original Health Connect data. Health and phone-observation data are not used for advertising.",
+        "Derived phone-observation results are stored privately in your account with your other records. Raw usage events, app package names and per-app usage histories are not uploaded. Permission access and private server storage do not publish these records to SNS."
+      ],
+      "bullets": []
+    },
+    {
+      "title": "DotiMoti account",
+      "paragraphs": [
+        "ID · Account registration and recovery use your ID, password, display name and verified email. Passwords are hashed on the server. Verification codes expire; changing your password signs out all devices.",
+        "The server returns your account profile and session credentials. The access token stays in memory. Only an encrypted refresh credential and profile are saved in app-private storage excluded from Android backup and exported record backups. Passwords are not saved. Saved credentials are bound to their server.",
+        "Your missions and private records are stored in your account. They stay private until you publish them.",
+        "Request deletion in Settings or on the account deletion website. Access and public posts stop immediately. Signing in within 30 days cancels the request. After 30 days the account, records, posts, comments, cheers, conversations and attachments are deleted. Phone gallery originals are unaffected."
+      ],
+      "bullets": []
+    },
+    {
+      "title": "16. Optional SNS sharing",
+      "paragraphs": [
+        "Selected photos, edited videos, record cards and text are uploaded when you publish. Mission posts also share the goal, measurement settings and routine configuration so others can add the mission. Raw GPS, health samples and original performance records are not uploaded.",
+        "Ordinary posts follow your account audience: public or approved followers. SNS break can hide ordinary posts and pause comments without deleting history. Campaign proof stays public with comments enabled.",
+        "Previously restricted posts are not made public in bulk.",
+        "Audience changes apply to past and future ordinary posts. Archiving hides a post and its private feed while preserving read-only reactions. Unpublishing removes reactions and restores a private feed. Downloaded or shared copies cannot be recalled.",
+        "An account-scoped device copy retries interrupted publications without duplicates. Signing out isolates each account. Deleting a post keeps its private original; account deletion removes personal originals after the grace period.",
+        "Private feeds and SNS posts are edited separately. You choose whether edits copy to a linked version. Original measurements stay unchanged. Adding a shared mission creates your independent mission."
+      ],
+      "bullets": []
+    },
+    {
+      "title": "17. Public profile",
+      "paragraphs": [
+        "Search uses public posts, people and official missions. Typed people searches go to the server but are not saved in private records. Search never publishes your private records.",
+        "Saving a profile sends the display name, profile motto, introduction and any newly selected profile photo to the account server. These details appear on your profile for other users. Selected photos are resized and re-encoded without original location metadata. Cancelling does not upload the selected photo. Uploaded profile photos may remain on the server after replacement or removal; anyone who knows an image URL can open it."
+      ],
+      "bullets": []
+    },
+    {
+      "title": "18. Direct messages",
+      "paragraphs": [
+        "DM text, photos and participant IDs are stored on the server over HTTPS without end-to-end encryption. Photos require sender or recipient authorization; knowing the URL is insufficient. Photos are re-encoded without location metadata. Opening a conversation updates read status.",
+        "Unsent DM drafts and photos stay on this device by account and recipient. Queued sends resume online without duplicates. Clearing or leaving a chat only hides your copy. FCM uses device tokens for generic alerts without message bodies or health data. Permission is optional; logout stops previous-account alerts."
+      ],
+      "bullets": []
+    },
+    {
+      "title": "19. Support inquiries",
+      "paragraphs": [
+        "Sending an inquiry or additional question sends your account ID, category, title and reviewed text to the account server. Only you and authorized support staff can access the conversation. Staff replies appear in your inquiry and in-app notifications. Inquiries are not SNS posts and are not made public during an SNS break or account audience changes. Unsent text is kept in memory only; do not include passwords or sensitive health information."
+      ],
+      "bullets": []
+    },
+    {
+      "title": "Private account records",
+      "paragraphs": [
+        "Private missions, routines, records and attached photos, videos, routes and health data are stored in your account database over HTTPS. Device copies protect offline edits and retry uploads after reconnection or restart. Conflicting versions are preserved for review. Background retries never stop an active measurement. Old device records are not imported."
+      ],
+      "bullets": []
+    }
+  ]
+}

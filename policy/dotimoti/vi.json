@@ -1,0 +1,182 @@
+{
+  "language": "vi",
+  "effectiveDate": "2026-11-19",
+  "publicUrl": "https://kizwond.github.io/dotimoti-legal/dotimoti/privacy/vi/",
+  "deletionUrl": "https://220.85.48.155/dotimoti-api/account/delete/",
+  "deletionLabel": "Xóa tài khoản",
+  "versionCode": 78,
+  "sections": [
+    {
+      "title": "1. Phạm vi và nguyên tắc",
+      "paragraphs": [
+        "com.dotimoti.app.next · DotiMoti cung cấp nhiệm vụ, bài tập và bản ghi riêng theo tài khoản cùng tính năng đăng mạng xã hội tùy chọn. Không bao gồm nhiệm vụ chung hoặc quyên góp.",
+        "Nhiệm vụ và ghi chép riêng được lưu trong tài khoản. Chúng không công khai cho đến khi bạn đăng.",
+        "Giữ kín mật khẩu. Cấm nội dung bất hợp pháp, quấy rối và xâm phạm quyền. Báo cáo nội dung hoặc người dùng để nhân viên xem xét. Chặn ngăn nhắn tin, bình luận và ủng hộ hai chiều."
+      ],
+      "bullets": []
+    },
+    {
+      "title": "Ghi chép riêng tư của tài khoản",
+      "paragraphs": [
+        "Nhiệm vụ và ghi chép riêng được lưu trong tài khoản. Chúng không công khai cho đến khi bạn đăng.",
+        "Nhiệm vụ và bài tập: tên, mô tả, ảnh bìa, mục tiêu, hạn chót, các bước, thời lượng, số lần lặp và cài đặt thực hiện. Kết quả: thời điểm bắt đầu/kết thúc, thời gian đã qua, trạng thái hoàn thành, bộ đếm, ghi chú, ảnh và bản sao chỉnh sửa.",
+        "Tùy chức năng đã bật: tọa độ và thời điểm di chuyển, lộ trình, quãng đường, tốc độ, nhịp độ, độ cao, bước chân, tầng và số lần lặp. Dữ liệu Health Connect tùy chọn gồm nhịp tim, bước chân, quãng đường, calo hoạt động và tổng calo, tốc độ, độ cao tích lũy, ứng dụng nguồn, khoảng thời gian, trạng thái và chất lượng truy vấn. Lưu tổng và số mẫu thực tế để tính trung bình theo kỳ, phân biệt với dữ liệu điện thoại.",
+        "Cũng lưu giờ nhắc, mã thẻ NFC và nhiệm vụ liên kết, âm thanh, báo thức, Không làm phiền, mã cài đặt ứng dụng, nhiệm vụ và bản ghi. Các mã này không dùng làm mã quảng cáo.",
+        "Tệp đính kèm bài đăng: ảnh và video gốc, đoạn được chọn, bố cục, độ tối, tắt tiếng và cài đặt chữ, bản ghi hoặc nhãn dán."
+      ],
+      "bullets": []
+    },
+    {
+      "title": "3. Vị trí và hỗ trợ bắt đầu",
+      "paragraphs": [
+        "Khi bật đo di chuyển, vị trí được dùng để ghi lộ trình và quãng đường. Dịch vụ tiền cảnh có thể tiếp tục đo khi xem ứng dụng khác hoặc tắt màn hình. Phiên bản hiện tại không cung cấp nhắc khi đến nơi hoặc phát hiện vị trí nền trước khi bắt đầu. Nhắc giờ và NFC mở nhiệm vụ liên kết, có thể tắt trong chỉnh sửa nhiệm vụ. Thu hồi quyền vị trí trong Android sẽ hạn chế đo lộ trình và quãng đường."
+      ],
+      "bullets": []
+    },
+    {
+      "title": "4. Health Connect và thiết bị đeo",
+      "paragraphs": [
+        "Sau khi bạn đồng ý thu thập các loại dữ liệu đã chọn và cấp quyền, ứng dụng đọc nhịp tim, bước chân, quãng đường, calo hoạt động và tổng calo, tốc độ và độ cao tích lũy đã lưu trong Health Connect, rồi liên kết với kết quả hoạt động. Sự đồng ý, quyền và phạm vi ngày của tự động ghi tuân theo mục 14. Trung bình nhịp tim và tốc độ dùng mẫu nguồn thực tế. Ứng dụng không kết nối trực tiếp thiết bị đeo hay nhận tài khoản, mật khẩu của Zepp hoặc ứng dụng khác. Dữ liệu có thể từ ứng dụng điện thoại; nguồn được hiển thị và không đảm bảo mọi giá trị đều từ đồng hồ.",
+        "Kết quả do bạn bắt đầu được tổng hợp theo thời điểm bắt đầu/kết thúc. Để tìm bản ghi nhịp tim hoặc calo trải qua khoảng đó, có thể truy vấn dữ liệu được phép truy cập bắt đầu từ trước buổi tập. Có thể trả về dữ liệu cũ không liên quan, nhưng chỉ chọn lưu mẫu, tổng hợp, khoảng thời gian, nguồn và thông tin chẩn đoán liên quan; không lưu toàn bộ lịch sử sức khỏe.",
+        "Chỉ đọc, không ghi vào Health Connect hay xóa bản gốc. Cấp quyền không đảm bảo đã đồng bộ hay có dữ liệu. Độ trễ đồng bộ và độ phân giải nguồn có thể gây thiếu hoặc ước tính khoảng; có thể nhập lại. Dữ liệu dùng cho kết quả, thống kê kỳ, xét tiêu chí thành công, tự xem và chia sẻ do bạn chọn; không bán, quảng cáo hoặc đánh giá tín dụng. Không phục vụ chẩn đoán hay điều trị y tế. Có thể thu hồi từng loại quyền trong Health Connect."
+      ],
+      "bullets": []
+    },
+    {
+      "title": "5. Ảnh, video và các quyền khác",
+      "paragraphs": [],
+      "bullets": [
+        "Video đã chọn được sao chép vào vùng lưu trữ riêng của ứng dụng. Cắt video và ghép bản ghi được xử lý trên thiết bị. Tệp gốc đính kèm và thiết lập chỉnh sửa được lưu riêng trong tài khoản. Khi đăng hoặc chia sẻ ra ngoài, chỉ nội dung đã chọn được gửi đi; bản gốc trong thư viện không bị sửa.",
+        "Ảnh chụp bằng DotiMoti, kể cả chụp tự động đã bật, còn được sao chép vào Pictures/도티모티 sau khi lưu bản ghi. Ảnh nhập từ thư viện không bị lưu trùng vào thư viện. Bản sao đính kèm và thiết lập chỉnh sửa được lưu riêng trong tài khoản.",
+        "Thông báo, rung và báo thức chính xác đã cho phép hỗ trợ nhắc nhiệm vụ và điều khiển hoạt động. Đo lường và âm thanh đang chạy có thể tiếp tục qua dịch vụ tiền cảnh khi màn hình tắt. Ứng dụng hiện tại không dùng quyền báo thức toàn màn hình.",
+        "Quyền máy ảnh và hoạt động thể chất phục vụ chụp ảnh và đo bước chân đã chọn. NFC chỉ đọc thẻ do bạn liên kết để mở nhiệm vụ. Quyền Không làm phiền tùy chọn điều chỉnh chế độ trong khi hoạt động. Bạn có thể thu hồi quyền trong cài đặt Android."
+      ]
+    },
+    {
+      "title": "6. Nhiệm vụ chính thức tích hợp và cập nhật",
+      "paragraphs": [
+        "Danh sách nhiệm vụ chính thức, cài đặt mặc định và hình minh họa được tích hợp trong ứng dụng. Mở danh sách hay chọn các hình này không kết nối máy chủ. Nhiệm vụ chính thức mới được thêm qua bản cập nhật ứng dụng. Việc xem danh sách không gửi nhiệm vụ riêng, kết quả, ảnh, dữ liệu sức khỏe hay mã tài khoản ra ngoài. APK phân phối trực tiếp có thể kiểm tra cập nhật và tải APK khi bạn yêu cầu; máy chủ phân phối có thể xử lý IP, thời điểm, đường dẫn yêu cầu và thông tin HTTP thông thường. Ưu tiên cục bộ không có nghĩa là không kết nối Internet.",
+        "Bản phát triển kiểm tra máy chủ cập nhật riêng của DotiMoti Next qua HTTPS. Chỉ tải APK khi bạn chọn cập nhật, xác minh mã băm, định danh và chứng chỉ ký của ứng dụng đã cài, rồi cài sau khi Android xác nhận. Yêu cầu gồm thông tin kết nối thông thường như IP và thời gian, không gửi bản ghi riêng tư hay thông tin xác thực. Danh mục nhiệm vụ chính thức tích hợp vẫn dùng được ngoại tuyến."
+      ],
+      "bullets": []
+    },
+    {
+      "title": "7. Bản đồ và độ cao địa hình",
+      "paragraphs": [
+        "Hiển thị nền bản đồ của kết quả sẽ yêu cầu ô bản đồ khu vực từ OpenStreetMap cùng thông tin kết nối thông thường. Không tải tệp GPS gốc hay số liệu sức khỏe lên máy chủ bản đồ, nhưng mã ô có thể tiết lộ vùng đang xem. “Ẩn bản đồ” giữ hình lộ trình, không yêu cầu ô bản đồ cho bản ghi đó; “Hiện bản đồ” khôi phục nền. Không xóa GPS gốc hay dừng đo; hình lộ trình tự nó cũng có thể xác định địa điểm.",
+        "Hoạt động bật GPS và độ cao lộ trình tự tính độ cao địa hình khi lưu; bản ghi cũ chưa hiệu chỉnh có thể tự hiệu chỉnh khi xem. Dù ẩn nền hay không, nếu thiếu bộ đệm vẫn yêu cầu ô địa hình Terrarium từ s3.amazonaws.com/elevation-tiles-prod. Chỉ gửi mã ô và kết nối, không gửi GPS gốc, thời gian hoạt động hay dữ liệu sức khỏe. Nếu lỗi, giữ bản gốc và thử lại lần xem sau. Độ cao địa hình có thể khác tầng nhà hoặc mặt cầu thực tế."
+      ],
+      "bullets": []
+    },
+    {
+      "title": "Bản ghi riêng và chia sẻ bên ngoài",
+      "paragraphs": [
+        "Nhiệm vụ và ghi chép riêng được lưu trong tài khoản. Chúng không công khai cho đến khi bạn đăng.",
+        "Khi chọn chia sẻ hoặc xuất ra ngoài, dữ liệu được gửi đến ứng dụng hay vị trí bạn chọn. GPX có thể chứa tọa độ và thời gian chính xác ngay cả khi ẩn nền bản đồ. Hãy kiểm tra người nhận và phạm vi; không thể thu hồi bản sao đã chia sẻ."
+      ],
+      "bullets": []
+    },
+    {
+      "title": "Lưu trữ và xóa tài khoản",
+      "paragraphs": [
+        "Nhiệm vụ và ghi chép riêng được lưu trong tài khoản. Chúng không công khai cho đến khi bạn đăng.",
+        "Yêu cầu xóa trong Cài đặt hoặc trên web. Quyền truy cập và bài công khai dừng ngay. Đăng nhập trong 30 ngày sẽ hủy yêu cầu. Sau đó xóa tài khoản, bản ghi, bài đăng, bình luận, ủng hộ, hội thoại và tệp. Không xóa ảnh gốc trong thư viện.",
+        "Gỡ ứng dụng hoặc xóa dữ liệu ứng dụng trên thiết bị không xóa tài khoản hay bản ghi trên máy chủ. Hãy dùng chức năng xóa tài khoản để xóa dữ liệu đó. Bản gốc thư viện, dữ liệu gốc Health Connect và bản sao đã chia sẻ phải được quản lý tại từng nơi. Bản sao trên thiết bị không dùng sao lưu tự động Android."
+      ],
+      "bullets": []
+    },
+    {
+      "title": "10. Lựa chọn và bảo mật",
+      "paragraphs": [
+        "Có thể tắt đo, hỗ trợ hay tự nhập không cần thiết và thu hồi quyền trong Android/Health Connect. Thu hồi không xóa dữ liệu đã nhập; hãy xóa bản ghi nếu muốn. Vùng riêng ứng dụng và quyền hệ điều hành giới hạn truy cập; chức năng trực tuyến dùng HTTPS. Không có cách lưu hay truyền nào đảm bảo an toàn tuyệt đối. Khóa thiết bị, cập nhật hệ thống và bảo vệ tệp xuất, sao lưu là quan trọng. Không bán dữ liệu cá nhân, sức khỏe hay dùng cho quảng cáo. Nguyên tắc tương tự áp dụng cho trẻ em; người giám hộ có thể liên hệ về xử lý hoặc xóa."
+      ],
+      "bullets": []
+    },
+    {
+      "title": "11. Dịch vụ ngoài và thông tin hỏi đáp",
+      "paragraphs": [
+        "Bản đồ dùng OpenStreetMap và địa hình Amazon. Quyền sức khỏe tùy chọn dùng Android. Yêu cầu HTTPS chứa IP và thời điểm yêu cầu.",
+        "Chính sách này được công bố trên GitHub Pages; GitHub có thể xử lý địa chỉ IP và thông tin kết nối thông thường khi truy cập. Cùng nội dung được tích hợp trong ứng dụng để đọc ngoại tuyến. DotiMoti hiện không có SDK quảng cáo hoặc phân tích hành vi."
+      ],
+      "bullets": []
+    },
+    {
+      "title": "12. Thay đổi chính sách",
+      "paragraphs": [
+        "Khi chức năng hoặc cách xử lý dữ liệu thay đổi, chính sách và ngày hiệu lực được cập nhật. Thay đổi quan trọng được thông báo qua ứng dụng hoặc trang cửa hàng."
+      ],
+      "bullets": []
+    },
+    {
+      "title": "13. Đơn vị vận hành và liên hệ",
+      "paragraphs": [
+        "Đơn vị vận hành: opensky",
+        "Email riêng tư: eonseok.yoon@opensky.co.kr",
+        "Dịch vụ: DotiMoti · Gói Android: com.dotimoti.app.next"
+      ],
+      "bullets": []
+    },
+    {
+      "title": "14. Tự động ghi tùy chọn và quan sát điện thoại",
+      "paragraphs": [
+        "Ghi tự động chỉ bắt đầu sau khi có đồng ý, quyền cần thiết và nhiệm vụ đã bật. Quyền truy cập sử dụng xử lý sự kiện màn hình và khóa trên thiết bị để ước tính lần dùng điện thoại cuối, không đo giấc ngủ hay thiết bị khác. Cấp quyền không tự bật phép đo hay chụp ảnh khác.",
+        "Bước chân hằng ngày đọc tổng Health Connect từ 00:00 theo múi giờ nhiệm vụ, có thể gồm bước trước lúc đồng ý trong cùng ngày. Ngày trước dùng tổng cả ngày. Quyền đọc sức khỏe nền được cấp riêng cho phép cập nhật định kỳ trên thiết bị hỗ trợ; nếu không, hãy mở ứng dụng để làm mới. Tiết kiệm pin, đồng bộ nguồn và quyền có thể gây chậm hoặc thiếu dữ liệu.",
+        "Bạn có thể dừng ghi tự động hoặc thu hồi quyền trong Android hay Health Connect. Bản ghi đã có được giữ đến khi bạn xóa. Đặt lại dữ liệu ứng dụng cần đồng ý lại. Thu hồi quyền không xóa bản ghi tài khoản hay dữ liệu gốc Health Connect. Dữ liệu sức khỏe và quan sát điện thoại không dùng cho quảng cáo.",
+        "Kết quả suy ra từ quan sát điện thoại được lưu riêng cùng các bản ghi trong tài khoản. Sự kiện sử dụng thô, tên gói ứng dụng và lịch sử theo từng ứng dụng không được tải lên. Cấp quyền và lưu riêng trên máy chủ không có nghĩa là đăng lên mạng xã hội."
+      ],
+      "bullets": []
+    },
+    {
+      "title": "Tài khoản DotiMoti",
+      "paragraphs": [
+        "ID · Đăng ký và khôi phục tài khoản sử dụng ID, mật khẩu, tên hiển thị và email đã xác minh. Mật khẩu được băm trên máy chủ. Mã xác minh có hạn dùng; đổi mật khẩu sẽ đăng xuất mọi thiết bị.",
+        "Máy chủ trả về hồ sơ và thông tin xác thực phiên. Token truy cập chỉ ở trong bộ nhớ. Chỉ thông tin làm mới đã mã hóa và hồ sơ được lưu trong vùng riêng của ứng dụng, không nằm trong sao lưu Android hay bản sao lưu bản ghi xuất ra. Không lưu mật khẩu. Thông tin xác thực đã lưu được gắn với máy chủ tương ứng.",
+        "Nhiệm vụ và ghi chép riêng được lưu trong tài khoản. Chúng không công khai cho đến khi bạn đăng.",
+        "Yêu cầu xóa trong Cài đặt hoặc trên web. Quyền truy cập và bài công khai dừng ngay. Đăng nhập trong 30 ngày sẽ hủy yêu cầu. Sau đó xóa tài khoản, bản ghi, bài đăng, bình luận, ủng hộ, hội thoại và tệp. Không xóa ảnh gốc trong thư viện."
+      ],
+      "bullets": []
+    },
+    {
+      "title": "16. Chia sẻ SNS tùy chọn",
+      "paragraphs": [
+        "Khi đăng, ảnh đã chọn, video đã chỉnh sửa, thẻ bản ghi và nội dung được tải lên. Bài viết nhiệm vụ chia sẻ cả mục tiêu, cài đặt đo và cấu hình quy trình để người khác thêm nhiệm vụ. Không tải lên GPS gốc, mẫu sức khỏe hay bản ghi kết quả gốc.",
+        "Bài thường theo phạm vi công khai hoặc người theo dõi đã duyệt. Nghỉ SNS có thể ẩn bài, dừng bình luận mà không xóa lịch sử. Bài xác nhận chiến dịch vẫn công khai và cho bình luận.",
+        "Không tự chuyển hàng loạt bài bị giới hạn thành công khai.",
+        "Phạm vi áp dụng cho bài cũ và mới. Lưu trữ ẩn bài và bản ghi riêng, giữ phản hồi chỉ đọc. Hủy đăng xóa phản hồi và trả về bản ghi riêng. Không thể thu hồi bản đã tải hoặc chia sẻ.",
+        "Bản sao theo tài khoản thử đăng lại không trùng. Đăng xuất tách biệt các tài khoản. Xóa bài giữ bản gốc riêng; xóa tài khoản sẽ xóa bản gốc sau thời gian chờ.",
+        "Bản ghi riêng và bài SNS sửa riêng; bạn chọn sao chép thay đổi. Dữ liệu đo gốc không đổi. Thêm nhiệm vụ được chia sẻ tạo nhiệm vụ độc lập của bạn."
+      ],
+      "bullets": []
+    },
+    {
+      "title": "17. Hồ sơ công khai",
+      "paragraphs": [
+        "Tìm bài công khai, người dùng và nhiệm vụ chính thức. Từ tìm người được gửi đến máy chủ, không lưu trong bản ghi riêng. Tìm kiếm không đăng bản ghi riêng.",
+        "Khi lưu hồ sơ, tên hiển thị, lời nhắn, giới thiệu và ảnh mới được chọn sẽ gửi tới máy chủ và hiển thị cho người dùng khác. Ảnh được thu nhỏ và mã hóa lại, không kèm siêu dữ liệu vị trí gốc. Hủy sẽ không tải ảnh đã chọn lên. Ảnh cũ có thể vẫn còn trên máy chủ sau khi thay hoặc xóa; ai biết URL ảnh đều có thể mở."
+      ],
+      "bullets": []
+    },
+    {
+      "title": "18. Tin nhắn trực tiếp",
+      "paragraphs": [
+        "Tin DM, ảnh và ID người tham gia lưu qua HTTPS, không mã hóa đầu cuối. Ảnh cần xác thực người gửi hoặc nhận; chỉ biết URL không đủ. Ảnh được mã hóa lại, bỏ vị trí. Mở hội thoại cập nhật đã đọc.",
+        "Bản nháp DM và ảnh giữ trên máy theo tài khoản và người nhận, gửi tiếp trực tuyến không trùng. Xóa hoặc rời chat chỉ ẩn bản sao của bạn. FCM dùng token để báo chung, không chứa nội dung hay sức khỏe. Quyền tùy chọn; đăng xuất dừng báo tài khoản cũ."
+      ],
+      "bullets": []
+    },
+    {
+      "title": "19. Yêu cầu hỗ trợ",
+      "paragraphs": [
+        "Khi gửi yêu cầu hoặc câu hỏi bổ sung, ID tài khoản, danh mục, tiêu đề và nội dung đã xem lại được gửi tới máy chủ tài khoản. Chỉ bạn và nhân viên được cấp quyền có thể xem cuộc trò chuyện. Trả lời xuất hiện trong yêu cầu và thông báo trong ứng dụng. Yêu cầu không phải bài đăng SNS và không trở thành công khai khi nghỉ SNS hay đổi phạm vi hiển thị. Nội dung chưa gửi chỉ được giữ trong bộ nhớ; không gửi mật khẩu hoặc thông tin sức khỏe nhạy cảm."
+      ],
+      "bullets": []
+    },
+    {
+      "title": "Ghi chép riêng tư của tài khoản",
+      "paragraphs": [
+        "Nhiệm vụ, lịch trình, bản ghi và ảnh, video, đường đi, sức khỏe riêng được lưu HTTPS vào DB tài khoản. Bản sao thiết bị bảo vệ sửa ngoại tuyến, gửi lại khi kết nối hoặc khởi động lại. Giữ bản xung đột để xem xét. Gửi nền không dừng đo. Không nhập bản ghi cũ."
+      ],
+      "bullets": []
+    }
+  ]
+}
