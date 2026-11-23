@@ -4,7 +4,7 @@
   "publicUrl": "https://kizwond.github.io/dotimoti-legal/dotimoti/privacy/zh-hant/",
   "deletionUrl": "https://220.85.48.155/dotimoti-api/account/delete/",
   "deletionLabel": "刪除帳號",
-  "versionCode": 78,
+  "versionCode": 85,
   "sections": [
     {
       "title": "1. 適用範圍和原則",

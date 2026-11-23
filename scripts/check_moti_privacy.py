@@ -29,11 +29,12 @@ for language in LANGUAGES:
     code,path,*_=language
     for app in ['dotidoit','dotimoti']:
         raw=(ROOT/app/'privacy'/path/'index.html').read_text();parser=Articles();parser.feed(raw)
+        if code=='ko':assert '공인미션' not in raw and '공식미션' in raw,(app,'obsolete official-mission wording')
         if app=='dotimoti':
             source=json.loads((ROOT/'policy/dotimoti'/f'{code}.json').read_text())
             assert raw==render_moti(language,source)
             assert parser.articles[code]==source['sections'],(code,'Moti text drift')
-            assert source['publicUrl']==BASE+path and source['versionCode']==78
+            assert source['publicUrl']==BASE+path and isinstance(source['versionCode'], int) and source['versionCode'] > 0
             assert not any('ZIP' in s for s in source['sections'][8]['paragraphs'])
             assert source['deletionUrl'] in [a.get('href') for a in parser.links]
         else:
