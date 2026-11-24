@@ -1,11 +1,13 @@
 # 도티 앱 개인정보처리방침
 
+2026-11-24: 두잇의 하루 판정/원본 보존과 경로 이미지 공유 설명을7언어에 보완했습니다. 기존 시행일과 설명 보완일을 구분합니다. [변경·검증](docs/2026-11-24-doit-clarification.md).
+
 2026-11-19부터 같은 GitHub Pages 사이트에서 앱별 방침을 제공합니다.
 
 - 도티두잇: https://kizwond.github.io/dotimoti-legal/dotidoit/privacy/
 - 도티모티: https://kizwond.github.io/dotimoti-legal/dotimoti/privacy/
 
-상단 앱 전환은 별도 주소로 이동하며 JavaScript를 요구하지 않습니다. Play Console에는 앱에 해당하는 직접 주소를 사용합니다. 두잇 본문/시행일/기존 앵커와 보관본은 유지합니다.
+상단 앱 전환은 별도 주소로 이동하며 JavaScript를 요구하지 않습니다. Play Console에는 앱에 해당하는 직접 주소를 사용합니다. 앱별 본문을 분리하며 기존 주소/앵커와 보관본을 유지합니다.
 
 ## 모티 본문 갱신
 
@@ -55,7 +57,7 @@ GitHub Pages의 `main` / root 배포를 사용합니다. 공식 주소는 `dotid
 
 한국어·영어 본문 14개 절의 기준 원본은
 `doti_doit/app/src/main/java/com/doti/doit/PrivacyPolicyScreen.kt`(1–13절)와
-`PrivacyPolicyContent.kt`(14절)입니다. 공개 페이지는 현재 광고 OFF 배포의 안내를 따릅니다. 공개 HTML은 기준 원본을
+`PrivacyPolicyContent.kt`(14절)입니다. 현재 두잇 공개 페이지는 광고 포함 버전의14개 공통 절과 광고 고지1절을 제공합니다. 광고 OFF 프리뷰는 앱 내부의 해당 빌드 고지를 따릅니다. 공개 HTML은 기준 원본을
 따르는 배포용 미러입니다. 변경 시 양쪽 본문, 시행일, 연락처를 함께 수정하고 앱 소스 빌드와
 공개 HTTP 응답을 확인하세요. `doti_doit/PRIVACY_POLICY.md`와 `privacy.html`은 이 공식 페이지를
 안내하는 포인터이며 별도 방침 사본으로 확장하지 않습니다. 웹 갱신은 기존 설치 앱의 내장 문구를

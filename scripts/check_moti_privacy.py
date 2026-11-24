@@ -45,4 +45,4 @@ for language in LANGUAGES:
             url=f'https://kizwond.github.io/dotimoti-legal/{target}/privacy/{path}'
             assert url in [a.get('href') for a in parser.links],(app,code,target)
         assert '<script' not in raw
-print('PASS 7 Moti runtime articles + 7 unchanged Doit articles, direct app/language navigation, legacy root English and deletion links')
+print('PASS 7 Moti runtime articles + 7 Doit articles matching their sources, direct app/language navigation, legacy root English and deletion links')

@@ -12,7 +12,8 @@
       "Misiones y rutinas: nombres, descripciones, portadas, objetivos, plazos, pasos, duraciones, repeticiones y ajustes de ejecución. Registros: horas de inicio y fin, tiempo transcurrido, estado de finalización, contadores, notas, fotos y copias de edición.",
       "Según las mediciones activadas: coordenadas y horas de desplazamiento, rutas, distancia, velocidad, ritmo, altitud, pasos, pisos y repeticiones. Las importaciones opcionales de Health Connect incluyen pulso, pasos, distancia, calorías activas y totales, velocidad, desnivel positivo, aplicaciones de origen, intervalos y estado o calidad de lectura. Se conservan sumas y cantidades de muestras reales para calcular medias del período, distinguiendo las mediciones del teléfono.",
       "También se guardan horarios de recordatorios, identificadores NFC y sus misiones, sonidos, alarmas, ajustes de No molestar e identificadores locales de instalación, misión y registro. Estos no se usan como identificadores publicitarios.",
-      "Adjuntos de las publicaciones: fotos y vídeos originales, segmentos seleccionados, disposición, oscurecimiento, silencio y ajustes de texto, registros o pegatinas."
+      "Adjuntos de las publicaciones: fotos y vídeos originales, segmentos seleccionados, disposición, oscurecimiento, silencio y ajustes de texto, registros o pegatinas.",
+      "Los registros guardados se evalúan en el dispositivo para calcular resultados diarios y estadísticas. Los cambios de objetivo o de reglas pueden recalcular logros y estadísticas existentes sin eliminar los registros originales, su historial de cambios ni las fotos."
     ],
     "bullets": []
   },
@@ -61,7 +62,8 @@
   {
     "title": "8. Compartir e integración actual",
     "paragraphs": [
-      "La versión actual no ofrece transferencia de registros entre DotiDoit y DotiMoti. Se pueden crear y ejecutar misiones y guardar registros sin instalar DotiMoti; el catálogo y las ilustraciones predeterminadas también están incluidos en la aplicación. Al compartir o exportar, se entrega información a la aplicación o destino elegido. Un GPX puede contener coordenadas y horas exactas aunque el fondo del mapa esté oculto. Revise destinatarios y alcance."
+      "La versión actual no ofrece transferencia de registros entre DotiDoit y DotiMoti. Se pueden crear y ejecutar misiones y guardar registros sin instalar DotiMoti; el catálogo y las ilustraciones predeterminadas también están incluidos en la aplicación. Al compartir o exportar, se entrega información a la aplicación o destino elegido. Un GPX puede contener coordenadas y horas exactas aunque el fondo del mapa esté oculto. Revise destinatarios y alcance.",
+      "Una ruta registrada puede convertirse en una imagen de mapa en el dispositivo para usarla como fondo del feed. Al elegir compartir externamente, esa imagen y sus datos visibles se envían a la aplicación seleccionada. Las solicitudes de teselas siguen la sección 7."
     ],
     "bullets": []
   },

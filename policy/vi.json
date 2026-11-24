@@ -12,7 +12,8 @@
       "Nhiệm vụ và bài tập: tên, mô tả, ảnh bìa, mục tiêu, hạn chót, các bước, thời lượng, số lần lặp và cài đặt thực hiện. Kết quả: thời điểm bắt đầu/kết thúc, thời gian đã qua, trạng thái hoàn thành, bộ đếm, ghi chú, ảnh và bản sao chỉnh sửa.",
       "Tùy chức năng đã bật: tọa độ và thời điểm di chuyển, lộ trình, quãng đường, tốc độ, nhịp độ, độ cao, bước chân, tầng và số lần lặp. Dữ liệu Health Connect tùy chọn gồm nhịp tim, bước chân, quãng đường, calo hoạt động và tổng calo, tốc độ, độ cao tích lũy, ứng dụng nguồn, khoảng thời gian, trạng thái và chất lượng truy vấn. Lưu tổng và số mẫu thực tế để tính trung bình theo kỳ, phân biệt với dữ liệu điện thoại.",
       "Cũng lưu giờ nhắc, mã thẻ NFC và nhiệm vụ liên kết, âm thanh, báo thức, Không làm phiền, mã cài đặt ứng dụng, nhiệm vụ và bản ghi. Các mã này không dùng làm mã quảng cáo.",
-      "Tệp đính kèm bài đăng: ảnh và video gốc, đoạn được chọn, bố cục, độ tối, tắt tiếng và cài đặt chữ, bản ghi hoặc nhãn dán."
+      "Tệp đính kèm bài đăng: ảnh và video gốc, đoạn được chọn, bố cục, độ tối, tắt tiếng và cài đặt chữ, bản ghi hoặc nhãn dán.",
+      "Các bản ghi đã lưu được xử lý trên thiết bị để tính kết quả mục tiêu mỗi ngày và thống kê. Khi cài đặt mục tiêu hoặc cách đánh giá thay đổi, số lần đạt và thống kê hiện có có thể được tính lại mà không xóa bản ghi gốc, lịch sử sửa đổi hay ảnh."
     ],
     "bullets": []
   },
@@ -61,7 +62,8 @@
   {
     "title": "8. Chia sẻ và liên kết ứng dụng hiện tại",
     "paragraphs": [
-      "Phiên bản hiện tại không hỗ trợ chuyển kết quả giữa DotiDoit và DotiMoti. Vẫn tạo, thực hiện và ghi nhiệm vụ dù có cài DotiMoti hay không; danh sách và hình mặc định cũng được tích hợp trong ứng dụng. Khi bạn chọn chia sẻ hoặc xuất, thông tin được gửi đến ứng dụng hay nơi lưu đã chọn. GPX có thể chứa tọa độ, thời gian chính xác dù đã ẩn nền bản đồ. Hãy kiểm tra người nhận và phạm vi chia sẻ."
+      "Phiên bản hiện tại không hỗ trợ chuyển kết quả giữa DotiDoit và DotiMoti. Vẫn tạo, thực hiện và ghi nhiệm vụ dù có cài DotiMoti hay không; danh sách và hình mặc định cũng được tích hợp trong ứng dụng. Khi bạn chọn chia sẻ hoặc xuất, thông tin được gửi đến ứng dụng hay nơi lưu đã chọn. GPX có thể chứa tọa độ, thời gian chính xác dù đã ẩn nền bản đồ. Hãy kiểm tra người nhận và phạm vi chia sẻ.",
+      "Tuyến đường đã ghi có thể được tạo thành ảnh bản đồ trên thiết bị để làm nền bảng tin. Khi bạn chọn chia sẻ ra ngoài, ảnh đó và dữ liệu hiển thị được chuyển đến ứng dụng bạn chọn. Yêu cầu ô bản đồ tuân theo mục 7."
     ],
     "bullets": []
   },

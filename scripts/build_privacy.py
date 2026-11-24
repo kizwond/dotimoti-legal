@@ -26,6 +26,7 @@ NOTICES = {
     'es': 'Esta política cubre las versiones de DotiDoit con publicidad. Las versiones existentes sin anuncios no incluyen el SDK publicitario.',
     'vi': 'Chính sách này áp dụng cho các phiên bản DotiDoit có quảng cáo. Các phiên bản không quảng cáo hiện có không chứa SDK quảng cáo.',
 }
+CLARIFICATIONS = {'ko': '설명 보완: 2026년 11월 24일', 'en': 'Clarified November 24, 2026', 'ja': '説明補足：2026年11月24日', 'zh-Hans': '说明补充：2026年11月24日', 'zh-Hant': '說明補充：2026年11月24日', 'es': 'Aclarado el 24 de noviembre de 2026', 'vi': 'Làm rõ nội dung ngày 24 tháng 11 năm 2026'}
 e = html.escape
 
 def article(code, sections, expected=15):
@@ -61,7 +62,7 @@ def render(language, sources):
 <link rel="alternate" hreflang="x-default" href="{BASE}">
 <style>
 *{{box-sizing:border-box}}body{{margin:0;background:#fbfdfc;color:#17202f;font-family:system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.75;overflow-wrap:anywhere}}main{{max-width:920px;margin:auto;padding:40px 20px 72px}}header,footer{{border-bottom:1px solid #e4e7ec;padding-bottom:24px;margin-bottom:28px}}h1{{font-size:clamp(30px,6vw,54px);line-height:1.2;letter-spacing:-.03em}}h2{{font-size:24px;margin:32px 0 12px;line-height:1.4}}p,li{{font-size:16px}}p{{margin:0 0 14px}}ul{{padding-left:22px}}nav{{display:flex;flex-wrap:wrap;gap:8px 16px}}a{{color:#115e59}}a[aria-current]{{font-weight:800}}.muted,footer{{color:#667085}}.divider{{border-top:1px solid #e4e7ec;margin-top:52px;padding-top:20px}}footer{{border-top:1px solid #e4e7ec;border-bottom:0;margin-top:40px;padding-top:20px}}
-</style></head><body><main><header><p class="muted">DotiDoit · opensky</p><h1>{e(title)}</h1><p>{e(effective)}</p><p>{e(NOTICES[code])}</p>{apps}<nav aria-label="{e(LANGUAGE_LABELS[code])}">{nav}</nav></header>
+</style></head><body><main><header><p class="muted">DotiDoit · opensky</p><h1>{e(title)}</h1><p>{e(effective)}</p><p>{e(NOTICES[code])}</p><p>{e(CLARIFICATIONS[code])}</p>{apps}<nav aria-label="{e(LANGUAGE_LABELS[code])}">{nav}</nav></header>
 {content}
 <footer>© opensky · <a href="mailto:eonseok.yoon@opensky.co.kr">eonseok.yoon@opensky.co.kr</a></footer></main></body></html>
 '''
