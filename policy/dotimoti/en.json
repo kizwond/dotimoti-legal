@@ -1,10 +1,10 @@
 {
   "language": "en",
-  "effectiveDate": "2026-11-19",
+  "effectiveDate": "2026-11-26",
   "publicUrl": "https://kizwond.github.io/dotimoti-legal/dotimoti/privacy/en/",
   "deletionUrl": "https://220.85.48.155/dotimoti-api/account/delete/",
   "deletionLabel": "Delete account",
-  "versionCode": 85,
+  "versionCode": 96,
   "sections": [
     {
       "title": "1. Scope and principles",
@@ -18,7 +18,9 @@
     {
       "title": "Private account records",
       "paragraphs": [
-        "Your missions and private records are stored in your account. They stay private until you publish them."
+        "Your missions and private records are stored in your account. They stay private until you publish them.",
+        "Set a deadline and target count, and optionally a daily performance target. Without a target, saving a record counts as a performance. Changing the criterion can re-evaluate this season's history; existing feeds and posts keep their snapshots.",
+        "Input data contains the criterion item and fields you add. Custom text, names, formats and units are stored with your records. Renaming a field does not change its original source or previously published posts."
       ],
       "bullets": [
         "Missions and tools: names, descriptions, covers, targets, deadlines, routine steps, durations, repetitions and execution settings.",

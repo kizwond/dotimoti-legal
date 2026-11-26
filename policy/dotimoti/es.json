@@ -1,10 +1,10 @@
 {
   "language": "es",
-  "effectiveDate": "2026-11-19",
+  "effectiveDate": "2026-11-26",
   "publicUrl": "https://kizwond.github.io/dotimoti-legal/dotimoti/privacy/es/",
   "deletionUrl": "https://220.85.48.155/dotimoti-api/account/delete/",
   "deletionLabel": "Eliminar cuenta",
-  "versionCode": 85,
+  "versionCode": 96,
   "sections": [
     {
       "title": "1. Alcance y principios",
@@ -19,6 +19,8 @@
       "title": "Registros privados de la cuenta",
       "paragraphs": [
         "Tus misiones y registros privados se guardan en tu cuenta. No se publican hasta que tú lo decidas.",
+        "Define una fecha límite y un número objetivo, y opcionalmente una meta diaria. Sin meta, guardar un registro cuenta como una realización. Cambiar el criterio puede reevaluar el historial de la temporada; los feeds y publicaciones existentes conservan sus copias originales.",
+        "Los datos de entrada incluyen el criterio y los campos que añadas. Los textos, nombres, formatos y unidades personalizados se guardan con los registros. Renombrar un campo no cambia su origen ni las publicaciones anteriores.",
         "Misiones y rutinas: nombres, descripciones, portadas, objetivos, plazos, pasos, duraciones, repeticiones y ajustes de ejecución. Registros: horas de inicio y fin, tiempo transcurrido, estado de finalización, contadores, notas, fotos y copias de edición.",
         "Según las mediciones activadas: coordenadas y horas de desplazamiento, rutas, distancia, velocidad, ritmo, altitud, pasos, pisos y repeticiones. Las importaciones opcionales de Health Connect incluyen pulso, pasos, distancia, calorías activas y totales, velocidad, desnivel positivo, aplicaciones de origen, intervalos y estado o calidad de lectura. Se conservan sumas y cantidades de muestras reales para calcular medias del período, distinguiendo las mediciones del teléfono.",
         "También se guardan horarios de recordatorios, identificadores NFC y sus misiones, sonidos, alarmas, ajustes de No molestar e identificadores locales de instalación, misión y registro. Estos no se usan como identificadores publicitarios.",

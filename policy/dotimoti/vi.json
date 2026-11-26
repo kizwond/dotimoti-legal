@@ -1,10 +1,10 @@
 {
   "language": "vi",
-  "effectiveDate": "2026-11-19",
+  "effectiveDate": "2026-11-26",
   "publicUrl": "https://kizwond.github.io/dotimoti-legal/dotimoti/privacy/vi/",
   "deletionUrl": "https://220.85.48.155/dotimoti-api/account/delete/",
   "deletionLabel": "Xóa tài khoản",
-  "versionCode": 85,
+  "versionCode": 96,
   "sections": [
     {
       "title": "1. Phạm vi và nguyên tắc",
@@ -19,6 +19,8 @@
       "title": "Ghi chép riêng tư của tài khoản",
       "paragraphs": [
         "Nhiệm vụ và ghi chép riêng được lưu trong tài khoản. Chúng không công khai cho đến khi bạn đăng.",
+        "Đặt hạn chót và số lần mục tiêu, có thể thêm mục tiêu thực hiện hằng ngày. Khi không đặt mục tiêu, lưu bản ghi được tính là một lần thực hiện. Đổi tiêu chí có thể đánh giá lại lịch sử mùa hiện tại; bảng tin và bài đăng đã tạo giữ nguyên bản chụp.",
+        "Dữ liệu nhập gồm mục tiêu chí và các mục bạn thêm. Văn bản, tên, định dạng và đơn vị tùy chỉnh được lưu cùng bản ghi. Đổi tên không thay đổi nguồn dữ liệu gốc hoặc bài đã đăng.",
         "Nhiệm vụ và bài tập: tên, mô tả, ảnh bìa, mục tiêu, hạn chót, các bước, thời lượng, số lần lặp và cài đặt thực hiện. Kết quả: thời điểm bắt đầu/kết thúc, thời gian đã qua, trạng thái hoàn thành, bộ đếm, ghi chú, ảnh và bản sao chỉnh sửa.",
         "Tùy chức năng đã bật: tọa độ và thời điểm di chuyển, lộ trình, quãng đường, tốc độ, nhịp độ, độ cao, bước chân, tầng và số lần lặp. Dữ liệu Health Connect tùy chọn gồm nhịp tim, bước chân, quãng đường, calo hoạt động và tổng calo, tốc độ, độ cao tích lũy, ứng dụng nguồn, khoảng thời gian, trạng thái và chất lượng truy vấn. Lưu tổng và số mẫu thực tế để tính trung bình theo kỳ, phân biệt với dữ liệu điện thoại.",
         "Cũng lưu giờ nhắc, mã thẻ NFC và nhiệm vụ liên kết, âm thanh, báo thức, Không làm phiền, mã cài đặt ứng dụng, nhiệm vụ và bản ghi. Các mã này không dùng làm mã quảng cáo.",

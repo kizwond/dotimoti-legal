@@ -1,0 +1,1 @@
+Android96 실제 런타임에서7언어20절을 추출해 공개본문과 대조했습니다. build_moti_privacy.py 및 check_moti_privacy.py 통과. 기존 주소·앱별 링크와 두잇 정책 원본 보존.
