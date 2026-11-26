@@ -2,8 +2,8 @@
   {
     "title": "1. Scope and principles",
     "paragraphs": [
-      "DotiDoit (package com.doti.doit) is a local-first app for creating missions, measuring activities with tools, and keeping photos, videos and notes.",
-      "DotiDoit has no account registration or sign-in. Missions, activity records, photos, videos and health data are primarily kept on the device. Sharing, backups, maps and Google's advertising SDK can involve external processing as described below."
+      "MotiDoit (package com.doti.doit) is a local-first app for creating missions, measuring activities with tools, and keeping photos, videos and notes.",
+      "MotiDoit has no account registration or sign-in. Missions, activity records, photos, videos and health data are primarily kept on the device. Sharing, backups, maps and Google's advertising SDK can involve external processing as described below."
     ],
     "bullets": []
   },
@@ -46,7 +46,7 @@
     "paragraphs": [],
     "bullets": [
       "Videos selected from the album are copied into app-private storage while temporary access is available. Clip selection, layout, muting and record decoration are processed on the device without modifying the original or uploading it to a company server. When you explicitly share, the selected segment and visible records are rendered into an MP4 and handed to the app you choose. ZIP backups contain the complete original video, including segments not selected for sharing, and its edit settings. Imported videos are not automatically duplicated into the gallery.",
-      "Camera and photo selection: user-requested capture, selected album photos, enabled automatic capture and editing. Photos captured directly or automatically by the DotiDoit camera are also copied after record save to the user's Pictures/도티두잇 gallery album. Photos selected from an existing album are not duplicated back into the gallery. Record, editing or preview copies may remain in app-private storage.",
+      "Camera and photo selection: user-requested capture, selected album photos, enabled automatic capture and editing. Photos captured directly or automatically by the MotiDoit camera are also copied after record save to the user's Pictures/모티두잇 gallery album. Photos selected from an existing album are not duplicated back into the gallery. Record, editing or preview copies may remain in app-private storage.",
       "Physical activity: reads phone step-detector/counter sensors during a run. Elevation and floor availability depends on sensors and settings.",
       "Notifications, exact alarms, vibration and boot completion: restore scheduled alarms/time reminders and show activity status and completion. Direct-distribution APKs can also use full-screen notifications; the Google Play version excludes that permission.",
       "Foreground services and wake locks: support ongoing runs and audio while the screen is off or the app is in the background.",
@@ -76,7 +76,7 @@
   {
     "title": "8. Sharing and current-release app integration",
     "paragraphs": [
-      "The current release does not expose DotiMoti app-to-app record transfer. DotiDoit creates missions, runs and records independently of whether DotiMoti is installed; the public mission catalog and default illustrations are also bundled with the app.",
+      "The current release does not expose DotiMoti app-to-app record transfer. MotiDoit creates missions, runs and records independently of whether DotiMoti is installed; the public mission catalog and default illustrations are also bundled with the app.",
       "When you choose sharing or export, information goes to the selected app or storage destination. GPX may contain exact coordinates and timestamps regardless of whether the map background is hidden on the record screen. Check recipients and sharing scope.",
       "A recorded route can be rendered on the device as a map image for a feed background. When you choose external sharing, that image and its visible records are passed to the app you select. Map tile requests follow section 7."
     ],
@@ -123,7 +123,7 @@
     "paragraphs": [
       "Operator: opensky",
       "Privacy contact email: eonseok.yoon@opensky.co.kr",
-      "Service: DotiDoit · Android package: com.doti.doit"
+      "Service: MotiDoit · Android package: com.doti.doit"
     ],
     "bullets": []
   },

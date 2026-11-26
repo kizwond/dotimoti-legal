@@ -2,7 +2,7 @@
   {
     "title": "1. Phạm vi và nguyên tắc",
     "paragraphs": [
-      "DotiDoit (gói com.doti.doit) là ứng dụng ưu tiên lưu trên thiết bị để tạo nhiệm vụ, đo hoạt động qua bài tập và lưu ảnh, video, ghi chú. Không cần đăng ký tài khoản hay đăng nhập. Nhiệm vụ, bản ghi, ảnh, video và dữ liệu sức khỏe chủ yếu được lưu trên thiết bị. Chia sẻ, sao lưu, bản đồ và SDK quảng cáo của Google có thể liên quan đến việc xử lý bên ngoài như mô tả dưới đây."
+      "MotiDoit (gói com.doti.doit) là ứng dụng ưu tiên lưu trên thiết bị để tạo nhiệm vụ, đo hoạt động qua bài tập và lưu ảnh, video, ghi chú. Không cần đăng ký tài khoản hay đăng nhập. Nhiệm vụ, bản ghi, ảnh, video và dữ liệu sức khỏe chủ yếu được lưu trên thiết bị. Chia sẻ, sao lưu, bản đồ và SDK quảng cáo của Google có thể liên quan đến việc xử lý bên ngoài như mô tả dưới đây."
     ],
     "bullets": []
   },
@@ -36,7 +36,7 @@
   {
     "title": "5. Ảnh, video và các quyền khác",
     "paragraphs": [
-      "Camera và chọn ảnh dùng cho chụp theo yêu cầu, đính kèm ảnh đã chọn, tự chụp đã bật và chỉnh sửa. Ảnh chụp trực tiếp hoặc tự động bằng camera DotiDoit còn được sao chép vào album Pictures/도티두잇 sau khi lưu kết quả. Ảnh nhập từ album không sao chép ngược lần nữa. Có thể giữ bản sao phục vụ kết quả, chỉnh sửa hoặc xem trước trong vùng riêng của ứng dụng.",
+      "Camera và chọn ảnh dùng cho chụp theo yêu cầu, đính kèm ảnh đã chọn, tự chụp đã bật và chỉnh sửa. Ảnh chụp trực tiếp hoặc tự động bằng camera MotiDoit còn được sao chép vào album Pictures/모티두잇 sau khi lưu kết quả. Ảnh nhập từ album không sao chép ngược lần nữa. Có thể giữ bản sao phục vụ kết quả, chỉnh sửa hoặc xem trước trong vùng riêng của ứng dụng.",
       "Hoạt động thể chất đọc cảm biến phát hiện và đếm bước khi thực hiện; độ cao và tầng phụ thuộc cảm biến, cài đặt. Thông báo, báo thức chính xác, rung và khởi động máy phục hồi lịch, hiển thị trạng thái và hoàn thành. APK phân phối trực tiếp hỗ trợ thông báo toàn màn hình; bản Google Play không gồm quyền đó. Dịch vụ tiền cảnh và Wake Lock duy trì hoạt động, âm thanh khi tắt màn hình hoặc chạy nền.",
       "NFC đọc mã thẻ bạn liên kết để mở màn hình thực hiện, không ghi kết quả lên thẻ. Quyền Không làm phiền điều chỉnh gián đoạn trong hoạt động đã chọn. Khi bạn chọn cập nhật APK trực tiếp, Android yêu cầu xác nhận rồi mở cài đặt. Bản Google Play không tự cập nhật APK hay yêu cầu quyền cài ứng dụng. Không yêu cầu quyền danh bạ.",
       "Video được chọn từ album được sao chép vào vùng lưu trữ riêng khi quyền truy cập tạm thời còn hiệu lực. Việc chọn đoạn, bố cục, tắt tiếng và trang trí bản ghi được xử lý trên thiết bị, không sửa bản gốc hay tải lên máy chủ công ty. Khi bạn chủ động chia sẻ ra ngoài, ứng dụng tạo MP4 gồm đoạn đã chọn và bản ghi hiển thị rồi chuyển cho ứng dụng bạn chọn. Bản sao ZIP chứa toàn bộ video gốc, kể cả đoạn không chọn để chia sẻ, cùng thông tin chỉnh sửa. Video nhập vào không tự lưu trùng vào thư viện."
@@ -62,7 +62,7 @@
   {
     "title": "8. Chia sẻ và liên kết ứng dụng hiện tại",
     "paragraphs": [
-      "Phiên bản hiện tại không hỗ trợ chuyển kết quả giữa DotiDoit và DotiMoti. Vẫn tạo, thực hiện và ghi nhiệm vụ dù có cài DotiMoti hay không; danh sách và hình mặc định cũng được tích hợp trong ứng dụng. Khi bạn chọn chia sẻ hoặc xuất, thông tin được gửi đến ứng dụng hay nơi lưu đã chọn. GPX có thể chứa tọa độ, thời gian chính xác dù đã ẩn nền bản đồ. Hãy kiểm tra người nhận và phạm vi chia sẻ.",
+      "Phiên bản hiện tại không hỗ trợ chuyển kết quả giữa MotiDoit và DotiMoti. Vẫn tạo, thực hiện và ghi nhiệm vụ dù có cài DotiMoti hay không; danh sách và hình mặc định cũng được tích hợp trong ứng dụng. Khi bạn chọn chia sẻ hoặc xuất, thông tin được gửi đến ứng dụng hay nơi lưu đã chọn. GPX có thể chứa tọa độ, thời gian chính xác dù đã ẩn nền bản đồ. Hãy kiểm tra người nhận và phạm vi chia sẻ.",
       "Tuyến đường đã ghi có thể được tạo thành ảnh bản đồ trên thiết bị để làm nền bảng tin. Khi bạn chọn chia sẻ ra ngoài, ảnh đó và dữ liệu hiển thị được chuyển đến ứng dụng bạn chọn. Yêu cầu ô bản đồ tuân theo mục 7."
     ],
     "bullets": []
@@ -103,7 +103,7 @@
     "paragraphs": [
       "Đơn vị vận hành: opensky",
       "Email riêng tư: eonseok.yoon@opensky.co.kr",
-      "Dịch vụ: DotiDoit · Gói Android: com.doti.doit"
+      "Dịch vụ: MotiDoit · Gói Android: com.doti.doit"
     ],
     "bullets": []
   },

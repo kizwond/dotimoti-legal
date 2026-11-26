@@ -18,13 +18,13 @@ LANGUAGES = [
 ]
 LANGUAGE_LABELS = {'ko':'언어','en':'Language','ja':'言語','zh-Hans':'语言','zh-Hant':'語言','es':'Idioma','vi':'Ngôn ngữ'}
 NOTICES = {
-    'ko': '광고가 포함된 도티두잇 버전에 적용되는 방침입니다. 기존 광고 없는 버전은 광고 SDK를 포함하지 않습니다.',
-    'en': 'This policy covers DotiDoit versions with advertising. Existing ad-free versions do not include the advertising SDK.',
-    'ja': '広告を含むDotiDoitの版に適用されるポリシーです。既存の広告なしの版には広告SDKは含まれません。',
-    'zh-Hans': '本政策适用于包含广告的DotiDoit版本。现有无广告版本不包含广告SDK。',
-    'zh-Hant': '本政策適用於包含廣告的DotiDoit版本。現有無廣告版本不包含廣告SDK。',
-    'es': 'Esta política cubre las versiones de DotiDoit con publicidad. Las versiones existentes sin anuncios no incluyen el SDK publicitario.',
-    'vi': 'Chính sách này áp dụng cho các phiên bản DotiDoit có quảng cáo. Các phiên bản không quảng cáo hiện có không chứa SDK quảng cáo.',
+    'ko': '광고가 포함된 모티두잇 버전에 적용되는 방침입니다. 기존 광고 없는 버전은 광고 SDK를 포함하지 않습니다.',
+    'en': 'This policy covers MotiDoit versions with advertising. Existing ad-free versions do not include the advertising SDK.',
+    'ja': '広告を含むMotiDoitの版に適用されるポリシーです。既存の広告なしの版には広告SDKは含まれません。',
+    'zh-Hans': '本政策适用于包含广告的MotiDoit版本。现有无广告版本不包含广告SDK。',
+    'zh-Hant': '本政策適用於包含廣告的MotiDoit版本。現有無廣告版本不包含廣告SDK。',
+    'es': 'Esta política cubre las versiones de MotiDoit con publicidad. Las versiones existentes sin anuncios no incluyen el SDK publicitario.',
+    'vi': 'Chính sách này áp dụng cho các phiên bản MotiDoit có quảng cáo. Các phiên bản không quảng cáo hiện có không chứa SDK quảng cáo.',
 }
 CLARIFICATIONS = {'ko': '설명 보완: 2026년 11월 24일', 'en': 'Clarified November 24, 2026', 'ja': '説明補足：2026年11月24日', 'zh-Hans': '说明补充：2026年11月24日', 'zh-Hant': '說明補充：2026年11月24日', 'es': 'Aclarado el 24 de noviembre de 2026', 'vi': 'Làm rõ nội dung ngày 24 tháng 11 năm 2026'}
 e = html.escape
@@ -44,7 +44,7 @@ def app_navigation(current, path):
     return '<nav class="apps" aria-label="Doti apps">' + ''.join(
         f'<a href="https://kizwond.github.io/dotimoti-legal/{app}/privacy/{path}"'
         + (' aria-current="page"' if app == current else '') + f'>{label}</a>'
-        for app, label in [('dotidoit', 'DotiDoit'), ('dotimoti', 'DotiMoti')]) + '</nav>'
+        for app, label in [('dotidoit', 'MotiDoit'), ('dotimoti', 'DotiMoti')]) + '</nav>'
 
 
 def render(language, sources):
@@ -58,11 +58,11 @@ def render(language, sources):
         content += '<div class="divider"><h2>English · Privacy Policy</h2></div>' + article('en', sources['en'])
     return f'''<!doctype html>
 <html lang="{code}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>DotiDoit · {e(title)}</title><link rel="canonical" href="{BASE}{path}">{alternates}
+<title>MotiDoit · {e(title)}</title><link rel="canonical" href="{BASE}{path}">{alternates}
 <link rel="alternate" hreflang="x-default" href="{BASE}">
 <style>
 *{{box-sizing:border-box}}body{{margin:0;background:#fbfdfc;color:#17202f;font-family:system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.75;overflow-wrap:anywhere}}main{{max-width:920px;margin:auto;padding:40px 20px 72px}}header,footer{{border-bottom:1px solid #e4e7ec;padding-bottom:24px;margin-bottom:28px}}h1{{font-size:clamp(30px,6vw,54px);line-height:1.2;letter-spacing:-.03em}}h2{{font-size:24px;margin:32px 0 12px;line-height:1.4}}p,li{{font-size:16px}}p{{margin:0 0 14px}}ul{{padding-left:22px}}nav{{display:flex;flex-wrap:wrap;gap:8px 16px}}a{{color:#115e59}}a[aria-current]{{font-weight:800}}.muted,footer{{color:#667085}}.divider{{border-top:1px solid #e4e7ec;margin-top:52px;padding-top:20px}}footer{{border-top:1px solid #e4e7ec;border-bottom:0;margin-top:40px;padding-top:20px}}
-</style></head><body><main><header><p class="muted">DotiDoit · opensky</p><h1>{e(title)}</h1><p>{e(effective)}</p><p>{e(NOTICES[code])}</p><p>{e(CLARIFICATIONS[code])}</p>{apps}<nav aria-label="{e(LANGUAGE_LABELS[code])}">{nav}</nav></header>
+</style></head><body><main><header><p class="muted">MotiDoit · opensky</p><h1>{e(title)}</h1><p>{e(effective)}</p><p>{e(NOTICES[code])}</p><p>{e(CLARIFICATIONS[code])}</p>{apps}<nav aria-label="{e(LANGUAGE_LABELS[code])}">{nav}</nav></header>
 {content}
 <footer>© opensky · <a href="mailto:eonseok.yoon@opensky.co.kr">eonseok.yoon@opensky.co.kr</a></footer></main></body></html>
 '''

@@ -2,7 +2,7 @@
   {
     "title": "1. Alcance y principios",
     "paragraphs": [
-      "DotiDoit (paquete com.doti.doit) permite crear misiones, medir actividades con rutinas y guardar fotos, vídeos y notas, principalmente en el dispositivo. No tiene registro de cuentas ni inicio de sesión. Las misiones, registros, fotos, vídeos y datos de salud se guardan principalmente en el dispositivo. Compartir, hacer copias, utilizar mapas y el SDK publicitario de Google pueden implicar el tratamiento externo descrito a continuación."
+      "MotiDoit (paquete com.doti.doit) permite crear misiones, medir actividades con rutinas y guardar fotos, vídeos y notas, principalmente en el dispositivo. No tiene registro de cuentas ni inicio de sesión. Las misiones, registros, fotos, vídeos y datos de salud se guardan principalmente en el dispositivo. Compartir, hacer copias, utilizar mapas y el SDK publicitario de Google pueden implicar el tratamiento externo descrito a continuación."
     ],
     "bullets": []
   },
@@ -36,7 +36,7 @@
   {
     "title": "5. Fotos, vídeos y otros permisos",
     "paragraphs": [
-      "Cámara y selección de fotos: captura solicitada, fotos elegidas del álbum, captura automática activada y edición. Las fotos tomadas directa o automáticamente con la cámara de DotiDoit se copian, al guardar el registro, al álbum Pictures/도티두잇 de la galería. Las fotos importadas no se vuelven a duplicar allí. Pueden conservarse copias de registro, edición o vista previa en el almacenamiento privado.",
+      "Cámara y selección de fotos: captura solicitada, fotos elegidas del álbum, captura automática activada y edición. Las fotos tomadas directa o automáticamente con la cámara de MotiDoit se copian, al guardar el registro, al álbum Pictures/모티두잇 de la galería. Las fotos importadas no se vuelven a duplicar allí. Pueden conservarse copias de registro, edición o vista previa en el almacenamiento privado.",
       "Actividad física lee los sensores de pasos durante la ejecución; la altitud y los pisos dependen de sensores y ajustes. Notificaciones, alarmas exactas, vibración y arranque restauran recordatorios y muestran estado o finalización. El APK distribuido directamente también admite notificaciones a pantalla completa; Google Play excluye ese permiso. Los servicios en primer plano y bloqueos de activación mantienen ejecuciones y audio con la pantalla apagada o en segundo plano.",
       "NFC lee la etiqueta vinculada para abrir la ejecución; no escribe registros en ella. El acceso a No molestar ajusta las interrupciones durante la ejecución elegida. Las actualizaciones de APK directas solicitadas abren la instalación de Android con confirmación. La versión Google Play no usa actualización propia por APK ni permiso para solicitar instalaciones. No se solicita acceso a contactos.",
       "Los vídeos elegidos del álbum se copian al almacenamiento privado mientras el acceso temporal esté disponible. La selección de segmentos, la disposición, el silencio y la decoración de registros se procesan en el dispositivo sin modificar el original ni subirlo a servidores de la empresa. Al elegir explícitamente compartir, se genera un MP4 con el segmento seleccionado y los registros visibles y se entrega a la aplicación elegida. Las copias ZIP incluyen el vídeo original completo, también los segmentos no seleccionados para compartir, y los ajustes de edición. Los vídeos importados no se duplican automáticamente en la galería."
@@ -62,7 +62,7 @@
   {
     "title": "8. Compartir e integración actual",
     "paragraphs": [
-      "La versión actual no ofrece transferencia de registros entre DotiDoit y DotiMoti. Se pueden crear y ejecutar misiones y guardar registros sin instalar DotiMoti; el catálogo y las ilustraciones predeterminadas también están incluidos en la aplicación. Al compartir o exportar, se entrega información a la aplicación o destino elegido. Un GPX puede contener coordenadas y horas exactas aunque el fondo del mapa esté oculto. Revise destinatarios y alcance.",
+      "La versión actual no ofrece transferencia de registros entre MotiDoit y DotiMoti. Se pueden crear y ejecutar misiones y guardar registros sin instalar DotiMoti; el catálogo y las ilustraciones predeterminadas también están incluidos en la aplicación. Al compartir o exportar, se entrega información a la aplicación o destino elegido. Un GPX puede contener coordenadas y horas exactas aunque el fondo del mapa esté oculto. Revise destinatarios y alcance.",
       "Una ruta registrada puede convertirse en una imagen de mapa en el dispositivo para usarla como fondo del feed. Al elegir compartir externamente, esa imagen y sus datos visibles se envían a la aplicación seleccionada. Las solicitudes de teselas siguen la sección 7."
     ],
     "bullets": []
@@ -103,7 +103,7 @@
     "paragraphs": [
       "Operador: opensky",
       "Correo de privacidad: eonseok.yoon@opensky.co.kr",
-      "Servicio: DotiDoit · Paquete Android: com.doti.doit"
+      "Servicio: MotiDoit · Paquete Android: com.doti.doit"
     ],
     "bullets": []
   },
