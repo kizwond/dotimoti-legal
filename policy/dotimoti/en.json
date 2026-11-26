@@ -9,7 +9,7 @@
     {
       "title": "1. Scope and principles",
       "paragraphs": [
-        "com.dotimoti.app.next · DotiMoti provides account-based missions, routines and private records, with optional SNS sharing. Joint missions and donations are not included.",
+        "com.dotimoti.app.next · MotiDoti provides account-based missions, routines and private records, with optional SNS sharing. Joint missions and donations are not included.",
         "Your missions and private records are stored in your account. They stay private until you publish them.",
         "Keep your password private. Illegal content, harassment and rights violations are prohibited. Report content or users for staff review. Blocking prevents messages, comments and cheers in both directions."
       ],
@@ -54,7 +54,7 @@
       "paragraphs": [],
       "bullets": [
         "Selected videos are copied into app-private storage. Trimming and record overlays are processed on the device. Original attachments and edit settings are stored privately in your account. Publishing or external sharing sends only the media and record content you select; gallery originals are not modified.",
-        "Photos taken by DotiMoti, including enabled automatic capture, are also copied to Pictures/도티모티 after the record is saved. Imported album photos are not duplicated into the gallery. App copies and edit information are stored privately in the account.",
+        "Photos taken by MotiDoti, including enabled automatic capture, are also copied to Pictures/모티도티 after the record is saved. Imported album photos are not duplicated into the gallery. App copies and edit information are stored privately in the account.",
         "Notifications, vibration and permitted exact alarms support mission reminders and ongoing activity controls. Active measurements and audio may continue through a foreground service while the screen is off. The current app does not use full-screen alarm permission.",
         "Camera and motion permissions support selected captures and step measurements. NFC reads only a tag linked by you to open a mission. Optional Do Not Disturb access adjusts that mode during your activity. You can revoke these permissions in Android settings."
       ]
@@ -63,7 +63,7 @@
       "title": "6. Bundled official missions and update connections",
       "paragraphs": [
         "The public mission catalog, default settings and illustrations are bundled with the app. Opening the catalog or selecting its images does not contact a server. New official missions arrive in app updates. Catalog browsing does not send your missions, activity records, photos, health readings or account tokens to an external server.",
-        "This development build checks the dedicated DotiMoti Next update server over HTTPS. APK files are downloaded only when you choose to update, verified against their hash, app identity and installed signing certificate, and installed after Android confirmation. Requests involve normal connection information such as IP address and request time, not private records or account credentials. The bundled official mission catalog remains available offline."
+        "This development build checks the dedicated MotiDoti Next update server over HTTPS. APK files are downloaded only when you choose to update, verified against their hash, app identity and installed signing certificate, and installed after Android confirmation. Requests involve normal connection information such as IP address and request time, not private records or account credentials. The bundled official mission catalog remains available offline."
       ],
       "bullets": []
     },
@@ -106,7 +106,7 @@
       "title": "11. External services and information you send in inquiries",
       "paragraphs": [
         "Maps use OpenStreetMap and Amazon terrain tiles. Optional health permissions use Android services. HTTPS requests to the account server include IP addresses and request times.",
-        "This policy is published on GitHub Pages, where GitHub may process IP addresses and normal connection information. The same text is bundled in the app and can be read offline. The current DotiMoti app does not include advertising or behavioral analytics SDKs."
+        "This policy is published on GitHub Pages, where GitHub may process IP addresses and normal connection information. The same text is bundled in the app and can be read offline. The current MotiDoti app does not include advertising or behavioral analytics SDKs."
       ],
       "bullets": []
     },
@@ -122,7 +122,7 @@
       "paragraphs": [
         "Operator: opensky",
         "Privacy contact email: eonseok.yoon@opensky.co.kr",
-        "Service: DotiMoti · Android package: com.dotimoti.app.next"
+        "Service: MotiDoti · Android package: com.dotimoti.app.next"
       ],
       "bullets": []
     },
@@ -137,7 +137,7 @@
       "bullets": []
     },
     {
-      "title": "DotiMoti account",
+      "title": "MotiDoti account",
       "paragraphs": [
         "ID · Account registration and recovery use your ID, password, display name and verified email. Passwords are hashed on the server. Verification codes expire; changing your password signs out all devices.",
         "The server returns your account profile and session credentials. The access token stays in memory. Only an encrypted refresh credential and profile are saved in app-private storage excluded from Android backup and exported record backups. Passwords are not saved. Saved credentials are bound to their server.",

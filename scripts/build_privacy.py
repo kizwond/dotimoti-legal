@@ -44,7 +44,7 @@ def app_navigation(current, path):
     return '<nav class="apps" aria-label="Doti apps">' + ''.join(
         f'<a href="https://kizwond.github.io/dotimoti-legal/{app}/privacy/{path}"'
         + (' aria-current="page"' if app == current else '') + f'>{label}</a>'
-        for app, label in [('dotidoit', 'MotiDoit'), ('dotimoti', 'DotiMoti')]) + '</nav>'
+        for app, label in [('dotidoit', 'MotiDoit'), ('dotimoti', 'MotiDoti')]) + '</nav>'
 
 
 def render(language, sources):

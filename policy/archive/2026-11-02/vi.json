@@ -60,7 +60,7 @@
   {
     "title": "8. Chia sẻ và liên kết ứng dụng hiện tại",
     "paragraphs": [
-      "Phiên bản hiện tại không hỗ trợ chuyển kết quả giữa DotiDoit và DotiMoti. Vẫn tạo, thực hiện và ghi nhiệm vụ dù có cài DotiMoti hay không; danh sách và hình mặc định cũng được tích hợp trong ứng dụng. Khi bạn chọn chia sẻ hoặc xuất, thông tin được gửi đến ứng dụng hay nơi lưu đã chọn. GPX có thể chứa tọa độ, thời gian chính xác dù đã ẩn nền bản đồ. Hãy kiểm tra người nhận và phạm vi chia sẻ."
+      "Phiên bản hiện tại không hỗ trợ chuyển kết quả giữa DotiDoit và MotiDoti. Vẫn tạo, thực hiện và ghi nhiệm vụ dù có cài MotiDoti hay không; danh sách và hình mặc định cũng được tích hợp trong ứng dụng. Khi bạn chọn chia sẻ hoặc xuất, thông tin được gửi đến ứng dụng hay nơi lưu đã chọn. GPX có thể chứa tọa độ, thời gian chính xác dù đã ẩn nền bản đồ. Hãy kiểm tra người nhận và phạm vi chia sẻ."
     ],
     "bullets": []
   },

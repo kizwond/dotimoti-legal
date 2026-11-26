@@ -76,7 +76,7 @@
   {
     "title": "8. Sharing and current-release app integration",
     "paragraphs": [
-      "The current release does not expose DotiMoti app-to-app record transfer. MotiDoit creates missions, runs and records independently of whether DotiMoti is installed; the public mission catalog and default illustrations are also bundled with the app.",
+      "The current release does not expose MotiDoti app-to-app record transfer. MotiDoit creates missions, runs and records independently of whether MotiDoti is installed; the public mission catalog and default illustrations are also bundled with the app.",
       "When you choose sharing or export, information goes to the selected app or storage destination. GPX may contain exact coordinates and timestamps regardless of whether the map background is hidden on the record screen. Check recipients and sharing scope.",
       "A recorded route can be rendered on the device as a map image for a feed background. When you choose external sharing, that image and its visible records are passed to the app you select. Map tile requests follow section 7."
     ],

@@ -60,7 +60,7 @@
   {
     "title": "8. Compartir e integración actual",
     "paragraphs": [
-      "La versión actual no ofrece transferencia de registros entre DotiDoit y DotiMoti. Se pueden crear y ejecutar misiones y guardar registros sin instalar DotiMoti; el catálogo y las ilustraciones predeterminadas también están incluidos en la aplicación. Al compartir o exportar, se entrega información a la aplicación o destino elegido. Un GPX puede contener coordenadas y horas exactas aunque el fondo del mapa esté oculto. Revise destinatarios y alcance."
+      "La versión actual no ofrece transferencia de registros entre DotiDoit y MotiDoti. Se pueden crear y ejecutar misiones y guardar registros sin instalar MotiDoti; el catálogo y las ilustraciones predeterminadas también están incluidos en la aplicación. Al compartir o exportar, se entrega información a la aplicación o destino elegido. Un GPX puede contener coordenadas y horas exactas aunque el fondo del mapa esté oculto. Revise destinatarios y alcance."
     ],
     "bullets": []
   },

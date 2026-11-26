@@ -9,7 +9,7 @@
     {
       "title": "1. Phạm vi và nguyên tắc",
       "paragraphs": [
-        "com.dotimoti.app.next · DotiMoti cung cấp nhiệm vụ, bài tập và bản ghi riêng theo tài khoản cùng tính năng đăng mạng xã hội tùy chọn. Không bao gồm nhiệm vụ chung hoặc quyên góp.",
+        "com.dotimoti.app.next · MotiDoti cung cấp nhiệm vụ, bài tập và bản ghi riêng theo tài khoản cùng tính năng đăng mạng xã hội tùy chọn. Không bao gồm nhiệm vụ chung hoặc quyên góp.",
         "Nhiệm vụ và ghi chép riêng được lưu trong tài khoản. Chúng không công khai cho đến khi bạn đăng.",
         "Giữ kín mật khẩu. Cấm nội dung bất hợp pháp, quấy rối và xâm phạm quyền. Báo cáo nội dung hoặc người dùng để nhân viên xem xét. Chặn ngăn nhắn tin, bình luận và ủng hộ hai chiều."
       ],
@@ -47,7 +47,7 @@
       "paragraphs": [],
       "bullets": [
         "Video đã chọn được sao chép vào vùng lưu trữ riêng của ứng dụng. Cắt video và ghép bản ghi được xử lý trên thiết bị. Tệp gốc đính kèm và thiết lập chỉnh sửa được lưu riêng trong tài khoản. Khi đăng hoặc chia sẻ ra ngoài, chỉ nội dung đã chọn được gửi đi; bản gốc trong thư viện không bị sửa.",
-        "Ảnh chụp bằng DotiMoti, kể cả chụp tự động đã bật, còn được sao chép vào Pictures/도티모티 sau khi lưu bản ghi. Ảnh nhập từ thư viện không bị lưu trùng vào thư viện. Bản sao đính kèm và thiết lập chỉnh sửa được lưu riêng trong tài khoản.",
+        "Ảnh chụp bằng MotiDoti, kể cả chụp tự động đã bật, còn được sao chép vào Pictures/모티도티 sau khi lưu bản ghi. Ảnh nhập từ thư viện không bị lưu trùng vào thư viện. Bản sao đính kèm và thiết lập chỉnh sửa được lưu riêng trong tài khoản.",
         "Thông báo, rung và báo thức chính xác đã cho phép hỗ trợ nhắc nhiệm vụ và điều khiển hoạt động. Đo lường và âm thanh đang chạy có thể tiếp tục qua dịch vụ tiền cảnh khi màn hình tắt. Ứng dụng hiện tại không dùng quyền báo thức toàn màn hình.",
         "Quyền máy ảnh và hoạt động thể chất phục vụ chụp ảnh và đo bước chân đã chọn. NFC chỉ đọc thẻ do bạn liên kết để mở nhiệm vụ. Quyền Không làm phiền tùy chọn điều chỉnh chế độ trong khi hoạt động. Bạn có thể thu hồi quyền trong cài đặt Android."
       ]
@@ -56,7 +56,7 @@
       "title": "6. Nhiệm vụ chính thức tích hợp và cập nhật",
       "paragraphs": [
         "Danh sách nhiệm vụ chính thức, cài đặt mặc định và hình minh họa được tích hợp trong ứng dụng. Mở danh sách hay chọn các hình này không kết nối máy chủ. Nhiệm vụ chính thức mới được thêm qua bản cập nhật ứng dụng. Việc xem danh sách không gửi nhiệm vụ riêng, kết quả, ảnh, dữ liệu sức khỏe hay mã tài khoản ra ngoài. APK phân phối trực tiếp có thể kiểm tra cập nhật và tải APK khi bạn yêu cầu; máy chủ phân phối có thể xử lý IP, thời điểm, đường dẫn yêu cầu và thông tin HTTP thông thường. Ưu tiên cục bộ không có nghĩa là không kết nối Internet.",
-        "Bản phát triển kiểm tra máy chủ cập nhật riêng của DotiMoti Next qua HTTPS. Chỉ tải APK khi bạn chọn cập nhật, xác minh mã băm, định danh và chứng chỉ ký của ứng dụng đã cài, rồi cài sau khi Android xác nhận. Yêu cầu gồm thông tin kết nối thông thường như IP và thời gian, không gửi bản ghi riêng tư hay thông tin xác thực. Danh mục nhiệm vụ chính thức tích hợp vẫn dùng được ngoại tuyến."
+        "Bản phát triển kiểm tra máy chủ cập nhật riêng của MotiDoti Next qua HTTPS. Chỉ tải APK khi bạn chọn cập nhật, xác minh mã băm, định danh và chứng chỉ ký của ứng dụng đã cài, rồi cài sau khi Android xác nhận. Yêu cầu gồm thông tin kết nối thông thường như IP và thời gian, không gửi bản ghi riêng tư hay thông tin xác thực. Danh mục nhiệm vụ chính thức tích hợp vẫn dùng được ngoại tuyến."
       ],
       "bullets": []
     },
@@ -96,7 +96,7 @@
       "title": "11. Dịch vụ ngoài và thông tin hỏi đáp",
       "paragraphs": [
         "Bản đồ dùng OpenStreetMap và địa hình Amazon. Quyền sức khỏe tùy chọn dùng Android. Yêu cầu HTTPS chứa IP và thời điểm yêu cầu.",
-        "Chính sách này được công bố trên GitHub Pages; GitHub có thể xử lý địa chỉ IP và thông tin kết nối thông thường khi truy cập. Cùng nội dung được tích hợp trong ứng dụng để đọc ngoại tuyến. DotiMoti hiện không có SDK quảng cáo hoặc phân tích hành vi."
+        "Chính sách này được công bố trên GitHub Pages; GitHub có thể xử lý địa chỉ IP và thông tin kết nối thông thường khi truy cập. Cùng nội dung được tích hợp trong ứng dụng để đọc ngoại tuyến. MotiDoti hiện không có SDK quảng cáo hoặc phân tích hành vi."
       ],
       "bullets": []
     },
@@ -112,7 +112,7 @@
       "paragraphs": [
         "Đơn vị vận hành: opensky",
         "Email riêng tư: eonseok.yoon@opensky.co.kr",
-        "Dịch vụ: DotiMoti · Gói Android: com.dotimoti.app.next"
+        "Dịch vụ: MotiDoti · Gói Android: com.dotimoti.app.next"
       ],
       "bullets": []
     },
@@ -127,7 +127,7 @@
       "bullets": []
     },
     {
-      "title": "Tài khoản DotiMoti",
+      "title": "Tài khoản MotiDoti",
       "paragraphs": [
         "ID · Đăng ký và khôi phục tài khoản sử dụng ID, mật khẩu, tên hiển thị và email đã xác minh. Mật khẩu được băm trên máy chủ. Mã xác minh có hạn dùng; đổi mật khẩu sẽ đăng xuất mọi thiết bị.",
         "Máy chủ trả về hồ sơ và thông tin xác thực phiên. Token truy cập chỉ ở trong bộ nhớ. Chỉ thông tin làm mới đã mã hóa và hồ sơ được lưu trong vùng riêng của ứng dụng, không nằm trong sao lưu Android hay bản sao lưu bản ghi xuất ra. Không lưu mật khẩu. Thông tin xác thực đã lưu được gắn với máy chủ tương ứng.",

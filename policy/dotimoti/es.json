@@ -9,7 +9,7 @@
     {
       "title": "1. Alcance y principios",
       "paragraphs": [
-        "com.dotimoti.app.next · DotiMoti ofrece misiones, rutinas y registros privados vinculados a tu cuenta, con publicaciones opcionales en la red social. No incluye misiones conjuntas ni donaciones.",
+        "com.dotimoti.app.next · MotiDoti ofrece misiones, rutinas y registros privados vinculados a tu cuenta, con publicaciones opcionales en la red social. No incluye misiones conjuntas ni donaciones.",
         "Tus misiones y registros privados se guardan en tu cuenta. No se publican hasta que tú lo decidas.",
         "Protege tu contraseña. Se prohíben contenidos ilegales, acoso e infracciones de derechos. Denuncia contenidos o usuarios al personal. Bloquear impide mensajes, comentarios y apoyos en ambos sentidos."
       ],
@@ -47,7 +47,7 @@
       "paragraphs": [],
       "bullets": [
         "Los vídeos elegidos se copian al almacenamiento privado de la aplicación. El recorte y la superposición de registros se procesan en el dispositivo. Los originales adjuntos y los ajustes se guardan de forma privada en tu cuenta. Al publicar o compartir se envían solo los medios y registros elegidos; no se modifican los originales de la galería.",
-        "Las fotos tomadas con DotiMoti, incluida la captura automática activada, se copian también a Pictures/도티모티 tras guardar el registro. Las fotos importadas no se duplican en la galería. Las copias adjuntas y los ajustes se guardan de forma privada en la cuenta.",
+        "Las fotos tomadas con MotiDoti, incluida la captura automática activada, se copian también a Pictures/모티도티 tras guardar el registro. Las fotos importadas no se duplican en la galería. Las copias adjuntas y los ajustes se guardan de forma privada en la cuenta.",
         "Las notificaciones, la vibración y las alarmas exactas autorizadas permiten recordatorios y controles de actividad. Las mediciones y el audio activos pueden continuar mediante un servicio en primer plano con la pantalla apagada. La aplicación actual no usa permiso de alarma a pantalla completa.",
         "Los permisos de cámara y actividad física permiten las capturas y mediciones de pasos elegidas. NFC solo lee una etiqueta que hayas vinculado para abrir una misión. El acceso opcional a No molestar ajusta ese modo durante la actividad. Puedes revocar los permisos en los ajustes de Android."
       ]
@@ -56,7 +56,7 @@
       "title": "6. Misiones oficiales integradas y actualizaciones",
       "paragraphs": [
         "El catálogo público de misiones, los ajustes predeterminados y las ilustraciones están incluidos en la aplicación. Abrir el catálogo o elegir sus imágenes no conecta con un servidor. Las nuevas misiones oficiales llegan mediante actualizaciones de la aplicación. Consultar el catálogo no envía misiones personales, registros, fotos, datos de salud ni tokens de cuenta al exterior. Los APK de distribución directa pueden comprobar actualizaciones y descargar un APK cuando se solicita; los servidores de distribución pueden procesar IP, hora y ruta de la petición y datos HTTP ordinarios. Priorizar el almacenamiento local no significa ausencia de conexiones a Internet.",
-        "Esta versión de desarrollo consulta el servidor exclusivo de DotiMoti Next mediante HTTPS. Solo descarga el APK cuando eliges actualizar, verifica su hash, identidad y certificado de firma de la app instalada, y lo instala tras la confirmación de Android. Las solicitudes incluyen datos normales de conexión como IP y hora, sin registros privados ni credenciales. El catálogo oficial incluido funciona sin conexión."
+        "Esta versión de desarrollo consulta el servidor exclusivo de MotiDoti Next mediante HTTPS. Solo descarga el APK cuando eliges actualizar, verifica su hash, identidad y certificado de firma de la app instalada, y lo instala tras la confirmación de Android. Las solicitudes incluyen datos normales de conexión como IP y hora, sin registros privados ni credenciales. El catálogo oficial incluido funciona sin conexión."
       ],
       "bullets": []
     },
@@ -96,7 +96,7 @@
       "title": "11. Servicios externos y consultas",
       "paragraphs": [
         "Los mapas usan OpenStreetMap y relieve de Amazon. Los permisos opcionales de salud usan Android. Las solicitudes HTTPS incluyen IP y hora.",
-        "Esta política se publica en GitHub Pages, donde GitHub puede procesar direcciones IP y datos normales de conexión. El mismo texto está incluido en la aplicación para leerlo sin conexión. DotiMoti no incluye actualmente SDK de publicidad ni análisis de comportamiento."
+        "Esta política se publica en GitHub Pages, donde GitHub puede procesar direcciones IP y datos normales de conexión. El mismo texto está incluido en la aplicación para leerlo sin conexión. MotiDoti no incluye actualmente SDK de publicidad ni análisis de comportamiento."
       ],
       "bullets": []
     },
@@ -112,7 +112,7 @@
       "paragraphs": [
         "Operador: opensky",
         "Correo de privacidad: eonseok.yoon@opensky.co.kr",
-        "Servicio: DotiMoti · Paquete Android: com.dotimoti.app.next"
+        "Servicio: MotiDoti · Paquete Android: com.dotimoti.app.next"
       ],
       "bullets": []
     },
@@ -127,7 +127,7 @@
       "bullets": []
     },
     {
-      "title": "Cuenta de DotiMoti",
+      "title": "Cuenta de MotiDoti",
       "paragraphs": [
         "ID · El registro y la recuperación usan tu ID, contraseña, nombre visible y correo verificado. Las contraseñas se procesan como hashes en el servidor. Los códigos caducan; cambiar la contraseña cierra las sesiones en todos los dispositivos.",
         "El servidor devuelve el perfil y las credenciales de sesión. El token de acceso permanece en memoria. Solo se guardan la credencial de renovación cifrada y el perfil en el almacenamiento privado, excluidos de las copias de Android y de registros exportados. No se guardan contraseñas. Las credenciales quedan vinculadas a su servidor.",
