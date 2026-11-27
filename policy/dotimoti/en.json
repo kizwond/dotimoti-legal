@@ -4,7 +4,7 @@
   "publicUrl": "https://kizwond.github.io/dotimoti-legal/dotimoti/privacy/en/",
   "deletionUrl": "https://220.85.48.155/dotimoti-api/next/account/delete/",
   "deletionLabel": "Delete account",
-  "versionCode": 99,
+  "versionCode": 100,
   "sections": [
     {
       "title": "1. Scope and principles",

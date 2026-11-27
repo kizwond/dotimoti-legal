@@ -4,7 +4,7 @@
   "publicUrl": "https://kizwond.github.io/dotimoti-legal/dotimoti/privacy/vi/",
   "deletionUrl": "https://220.85.48.155/dotimoti-api/next/account/delete/",
   "deletionLabel": "Xóa tài khoản",
-  "versionCode": 99,
+  "versionCode": 100,
   "sections": [
     {
       "title": "1. Phạm vi và nguyên tắc",

@@ -4,7 +4,7 @@
   "publicUrl": "https://kizwond.github.io/dotimoti-legal/dotimoti/privacy/",
   "deletionUrl": "https://220.85.48.155/dotimoti-api/next/account/delete/",
   "deletionLabel": "계정 탈퇴",
-  "versionCode": 99,
+  "versionCode": 100,
   "sections": [
     {
       "title": "1. 적용 범위와 기본 원칙",

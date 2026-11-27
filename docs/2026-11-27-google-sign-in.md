@@ -6,3 +6,5 @@
 - 회사 전용 Google 프로젝트 `motidoti-login`을 사용한다. Gmail/Drive/Health 접근 권한이나 기존 알림 프로젝트를 변경하는 작업이 아니다.
 - Android Google 흐름 4개와 7언어 방침/공개 링크 검사 1개가 에뮬레이터에서 통과했다. 공개 방침은 이 런타임 결과와 일치하며, 실제 Google 인증 결과는 앱의 후속 인계에 별도로 기록한다.
 - `build_moti_privacy.py --check`, `check_moti_privacy.py`, 기존 모티두잇 정책 `build_privacy.py --check` 통과. 모티두잇 정책은 변경하지 않았다.
+
+후속: 실제100 APK 설치본으로 같은7언어 방침 검사를 다시 실행해 통과했다. 본문/공개 HTML은 동일하며 추출 원본의 `versionCode` 메타데이터만99→100으로 갱신했다. 실제 Google 가입·재실행·동일 계정 재로그인도 앱100과 회사 API에서 확인했다. Google 비밀번호·ID 토큰·일회용 proof는 공개 산출물에 넣지 않는다.
