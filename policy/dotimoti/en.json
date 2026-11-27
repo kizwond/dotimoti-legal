@@ -1,6 +1,6 @@
 {
   "language": "en",
-  "effectiveDate": "2026-11-26",
+  "effectiveDate": "2026-11-27",
   "publicUrl": "https://kizwond.github.io/dotimoti-legal/dotimoti/privacy/en/",
   "deletionUrl": "https://220.85.48.155/dotimoti-api/next/account/delete/",
   "deletionLabel": "Delete account",
@@ -144,7 +144,8 @@
         "ID · Account registration and recovery use your ID, password, display name and verified email. Passwords are hashed on the server. Verification codes expire; changing your password signs out all devices.",
         "The server returns your account profile and session credentials. The access token stays in memory. Only an encrypted refresh credential and profile are saved in app-private storage excluded from Android backup and exported record backups. Passwords are not saved. Saved credentials are bound to their server.",
         "Your missions and private records are stored in your account. They stay private until you publish them.",
-        "Request deletion in Settings or on the account deletion website. Access and public posts stop immediately. Signing in within 30 days cancels the request. After 30 days the account, records, posts, comments, cheers, conversations and attachments are deleted. Phone gallery originals are unaffected."
+        "Request deletion in Settings or on the account deletion website. Access and public posts stop immediately. Signing in within 30 days cancels the request. After 30 days the account, records, posts, comments, cheers, conversations and attachments are deleted. Phone gallery originals are unaffected.",
+        "When you choose Google sign-in, Google provides your unique account identifier, email and display name. We use them to sign in or link your account. We never receive or store your Google password."
       ],
       "bullets": []
     },

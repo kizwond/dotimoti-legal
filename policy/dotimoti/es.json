@@ -1,6 +1,6 @@
 {
   "language": "es",
-  "effectiveDate": "2026-11-26",
+  "effectiveDate": "2026-11-27",
   "publicUrl": "https://kizwond.github.io/dotimoti-legal/dotimoti/privacy/es/",
   "deletionUrl": "https://220.85.48.155/dotimoti-api/next/account/delete/",
   "deletionLabel": "Eliminar cuenta",
@@ -134,7 +134,8 @@
         "ID · El registro y la recuperación usan tu ID, contraseña, nombre visible y correo verificado. Las contraseñas se procesan como hashes en el servidor. Los códigos caducan; cambiar la contraseña cierra las sesiones en todos los dispositivos.",
         "El servidor devuelve el perfil y las credenciales de sesión. El token de acceso permanece en memoria. Solo se guardan la credencial de renovación cifrada y el perfil en el almacenamiento privado, excluidos de las copias de Android y de registros exportados. No se guardan contraseñas. Las credenciales quedan vinculadas a su servidor.",
         "Tus misiones y registros privados se guardan en tu cuenta. No se publican hasta que tú lo decidas.",
-        "Solicita la eliminación en Ajustes o en la web. Se suspenden el acceso y los posts públicos. Entrar antes de 30 días cancela la solicitud. Después se eliminan cuenta, registros, posts, comentarios, apoyos, chats y adjuntos. La galería no cambia."
+        "Solicita la eliminación en Ajustes o en la web. Se suspenden el acceso y los posts públicos. Entrar antes de 30 días cancela la solicitud. Después se eliminan cuenta, registros, posts, comentarios, apoyos, chats y adjuntos. La galería no cambia.",
+        "Al elegir iniciar sesión con Google, recibimos su identificador único, correo y nombre. Los usamos para iniciar sesión o vincular tu cuenta. Nunca recibimos ni guardamos tu contraseña de Google."
       ],
       "bullets": []
     },

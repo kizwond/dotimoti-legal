@@ -1,6 +1,6 @@
 {
   "language": "vi",
-  "effectiveDate": "2026-11-26",
+  "effectiveDate": "2026-11-27",
   "publicUrl": "https://kizwond.github.io/dotimoti-legal/dotimoti/privacy/vi/",
   "deletionUrl": "https://220.85.48.155/dotimoti-api/next/account/delete/",
   "deletionLabel": "Xóa tài khoản",
@@ -134,7 +134,8 @@
         "ID · Đăng ký và khôi phục tài khoản sử dụng ID, mật khẩu, tên hiển thị và email đã xác minh. Mật khẩu được băm trên máy chủ. Mã xác minh có hạn dùng; đổi mật khẩu sẽ đăng xuất mọi thiết bị.",
         "Máy chủ trả về hồ sơ và thông tin xác thực phiên. Token truy cập chỉ ở trong bộ nhớ. Chỉ thông tin làm mới đã mã hóa và hồ sơ được lưu trong vùng riêng của ứng dụng, không nằm trong sao lưu Android hay bản sao lưu bản ghi xuất ra. Không lưu mật khẩu. Thông tin xác thực đã lưu được gắn với máy chủ tương ứng.",
         "Nhiệm vụ và ghi chép riêng được lưu trong tài khoản. Chúng không công khai cho đến khi bạn đăng.",
-        "Yêu cầu xóa trong Cài đặt hoặc trên web. Quyền truy cập và bài công khai dừng ngay. Đăng nhập trong 30 ngày sẽ hủy yêu cầu. Sau đó xóa tài khoản, bản ghi, bài đăng, bình luận, ủng hộ, hội thoại và tệp. Không xóa ảnh gốc trong thư viện."
+        "Yêu cầu xóa trong Cài đặt hoặc trên web. Quyền truy cập và bài công khai dừng ngay. Đăng nhập trong 30 ngày sẽ hủy yêu cầu. Sau đó xóa tài khoản, bản ghi, bài đăng, bình luận, ủng hộ, hội thoại và tệp. Không xóa ảnh gốc trong thư viện.",
+        "Khi bạn chọn đăng nhập bằng Google, Google cung cấp mã định danh tài khoản duy nhất, email và tên hiển thị. Chúng tôi dùng chúng để đăng nhập hoặc liên kết tài khoản. Chúng tôi không nhận hay lưu mật khẩu Google của bạn."
       ],
       "bullets": []
     },
