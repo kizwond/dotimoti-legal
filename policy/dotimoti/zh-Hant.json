@@ -2,9 +2,9 @@
   "language": "zh-Hant",
   "effectiveDate": "2026-11-26",
   "publicUrl": "https://kizwond.github.io/dotimoti-legal/dotimoti/privacy/zh-hant/",
-  "deletionUrl": "https://220.85.48.155/dotimoti-api/account/delete/",
+  "deletionUrl": "https://220.85.48.155/dotimoti-api/next/account/delete/",
   "deletionLabel": "刪除帳號",
-  "versionCode": 96,
+  "versionCode": 99,
   "sections": [
     {
       "title": "1. 適用範圍和原則",

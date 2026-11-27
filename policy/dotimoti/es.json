@@ -2,9 +2,9 @@
   "language": "es",
   "effectiveDate": "2026-11-26",
   "publicUrl": "https://kizwond.github.io/dotimoti-legal/dotimoti/privacy/es/",
-  "deletionUrl": "https://220.85.48.155/dotimoti-api/account/delete/",
+  "deletionUrl": "https://220.85.48.155/dotimoti-api/next/account/delete/",
   "deletionLabel": "Eliminar cuenta",
-  "versionCode": 96,
+  "versionCode": 99,
   "sections": [
     {
       "title": "1. Alcance y principios",
